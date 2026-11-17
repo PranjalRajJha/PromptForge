@@ -1,0 +1,46 @@
+## 1. Summary
+The OSI model is a standardized framework consisting of seven distinct layers that organize network communication. Each layer functions by providing specific services to the layer directly above it while utilizing the services provided by the layer below. This hierarchical structure ensures seamless data transmission and interoperability between different networking systems.
+
+## 2. Key Concepts
+*   The OSI model organizes network communication into seven hierarchical layers.
+*   The layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+*   Communication flows through the stack, with each layer relying on the one beneath it.
+*   Each layer serves the layer immediately above it in the stack.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| OSI Model | A seven-layer framework for standardizing network communication. |
+| Layering | A design approach where each level provides services to the level above. |
+
+## 4. Likely Exam Points
+*   List the seven layers of the OSI model in order.
+*   Explain the dependency relationship between adjacent layers.
+*   Identify the primary purpose of the OSI model in networking.
+
+## 5. Practice Questions
+
+**MCQs**
+1. How many layers are in the OSI model?
+   a) 5 b) 6 c) 7 d) 8 (Correct: c)
+2. Which layer is at the bottom of the OSI model?
+   a) Application b) Physical c) Transport d) Session (Correct: b)
+3. What is the relationship between layers?
+   a) Independent b) Parallel c) Hierarchical d) Random (Correct: c)
+4. Which layer is directly above the Physical layer?
+   a) Data Link b) Network c) Transport d) Session (Correct: a)
+5. What does a layer use from the layer below it?
+   a) Hardware b) Services c) Data d) Protocols (Correct: b)
+
+**Short-Answer Questions**
+1. Name all seven layers of the OSI model in order.
+2. Describe the service relationship between two adjacent layers.
+3. Why is the OSI model considered a hierarchical structure?
+
+## 6. Answer Key
+**MCQs:** 1-c, 2-b, 3-c, 4-a, 5-b.
+
+**Short-Answer:**
+1. Physical, Data Link, Network, Transport, Session, Presentation, Application.
+2. Each layer provides services to the layer above it and uses services from the layer below it.
+3. It is hierarchical because it organizes functions into seven distinct levels where each depends on the lower levels to operate.

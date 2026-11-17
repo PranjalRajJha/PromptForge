@@ -1,0 +1,35 @@
+# Study Pack: DFAs and NFAs
+
+This study pack covers the fundamental differences and relationships between Deterministic and Nondeterministic Finite Automata.
+
+---
+
+### 1. Short Summary
+Finite Automata are theoretical models used to recognize "regular languages." While **DFAs** are rigid and predictable (one path per input), **NFAs** are more flexible (multiple paths or "free" moves). Despite these differences, both machines are equally powerful—they can recognize the exact same set of languages. We can always turn an NFA into a DFA, though the resulting DFA might be much larger.
+
+---
+
+### 2. Key Concepts
+*   **Equivalence:** DFAs and NFAs recognize the same class of languages (Regular Languages).
+*   **The Subset Construction:** This is the mathematical method used to convert an NFA into an equivalent DFA.
+*   **Complexity:** Converting an NFA to a DFA can lead to an "exponential explosion" in the number of states, meaning the DFA could become significantly more complex than the original NFA.
+
+---
+
+### 3. Important Definitions
+*   **DFA (Deterministic Finite Automaton):** A machine where every state has exactly one transition for every possible input symbol. There is no ambiguity.
+*   **NFA (Nondeterministic Finite Automaton):** A machine that allows for multiple transitions for the same input, no transitions at all, or "epsilon" transitions.
+*   **Epsilon ($\epsilon$) Transition:** A special move that allows the machine to change states without reading any input symbol from the string.
+
+---
+
+### 4. Practice Questions
+
+**Q1: What is the main difference between a DFA and an NFA regarding transitions?**
+*   **Answer:** In a DFA, every state must have exactly one transition for every input symbol. In an NFA, a state can have multiple transitions for the same symbol, no transitions, or epsilon transitions.
+
+**Q2: Can an NFA recognize a language that a DFA cannot?**
+*   **Answer:** No. Both DFAs and NFAs recognize the exact same class of languages (regular languages).
+
+**Q3: What is the potential downside of converting an NFA to a DFA?**
+*   **Answer:** The resulting DFA may have exponentially more states than the original NFA, making it much larger and more complex.

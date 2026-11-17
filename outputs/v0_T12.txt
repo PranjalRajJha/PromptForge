@@ -1,0 +1,35 @@
+Yeh raha aapka study pack **Stack Data Structure** ke liye:
+
+---
+
+### 📚 Study Pack: Stack Data Structure
+
+#### 1. Short Summary (Saransh)
+Stack ek aisa data structure hai jo **LIFO (Last-In, First-Out)** ke principle par kaam karta hai. Iska matlab hai ki jo element sabse last mein add kiya gaya hai, wahi sabse pehle bahar niklega. Aap ise ek plate ke dher (stack of plates) ki tarah samajh sakte hain—aap upar se hi plate rakh sakte hain aur upar se hi hata sakte hain.
+
+#### 2. Key Concepts
+*   **LIFO Principle:** Last-In, First-Out (Jo sabse baad mein aaya, wo sabse pehle jayega).
+*   **Top:** Stack ka sabse upar wala hissa jahan se saare operations hote hain.
+*   **Real-life Examples:**
+    *   **Function Calls:** Programming mein functions ko manage karne ke liye.
+    *   **Undo Operation:** Text editors mein 'Undo' button dabane par jo last action kiya hota hai, wo pehle hat-ta hai.
+
+#### 3. Important Definitions
+*   **Push:** Stack ke 'top' par ek naya element add karne ki process.
+*   **Pop:** Stack ke 'top' se maujooda element ko remove (hatane) ki process.
+
+---
+
+### 📝 Practice Questions
+
+**Q1. Stack kis principle par kaam karta hai?**
+*   **Answer:** Stack LIFO (Last-In, First-Out) principle par kaam karta hai.
+
+**Q2. Stack mein naya element add karne ke operation ko kya kehte hain?**
+*   **Answer:** Isse 'Push' operation kehte hain.
+
+**Q3. Computer mein Stack ka ek practical use bataiye.**
+*   **Answer:** Stack ka use 'Undo' operation mein ya function calls ko manage karne ke liye kiya jata hai.
+
+---
+*Tip: Yaad rakhein, Stack mein aap sirf 'Top' se hi interact kar sakte hain!*

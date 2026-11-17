@@ -1,0 +1,80 @@
+{
+  "summary": "TCP and UDP are transport layer protocols with distinct characteristics regarding reliability and connection management. TCP provides a reliable, connection-oriented service suitable for web browsing and email. Conversely, UDP is a connectionless protocol that prioritizes speed and low latency over guaranteed delivery.",
+  "key_concepts": [
+    "TCP",
+    "UDP",
+    "Connection-oriented",
+    "Connectionless",
+    "Flow control",
+    "Congestion control"
+  ],
+  "definitions": [
+    {
+      "term": "TCP",
+      "definition": "A connection-oriented protocol that guarantees ordered and reliable delivery using acknowledgements and retransmissions."
+    },
+    {
+      "term": "UDP",
+      "definition": "A connectionless protocol that does not guarantee delivery, ordering, or duplicate protection, but offers lower overhead and latency."
+    }
+  ],
+  "exam_points": [
+    "TCP uses a three-way handshake to establish connections.",
+    "TCP includes flow control and congestion control mechanisms.",
+    "UDP is preferred for applications where speed is more critical than reliability.",
+    "TCP is utilized for email and web browsing applications."
+  ],
+  "mcqs": [
+    {
+      "question": "Which mechanism does TCP use to establish a connection?",
+      "options": [
+        "Two-way handshake",
+        "Three-way handshake",
+        "Four-way handshake",
+        "Acknowledgement-only setup"
+      ],
+      "answer": "B",
+      "bloom": "Remember",
+      "source": "uses a three-way handshake to set up a connection"
+    },
+    {
+      "question": "Which of the following is a characteristic of UDP?",
+      "options": [
+        "Guaranteed ordered delivery",
+        "High overhead",
+        "Connectionless",
+        "Congestion control"
+      ],
+      "answer": "C",
+      "bloom": "Understand",
+      "source": "UDP is connectionless"
+    },
+    {
+      "question": "If an application requires minimal latency for live video streaming, which protocol should be selected?",
+      "options": [
+        "TCP, because it guarantees delivery",
+        "TCP, because it uses retransmissions",
+        "UDP, because it has lower overhead and latency",
+        "UDP, because it provides duplicate protection"
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "UDP is used where speed matters more than reliability"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Why is TCP considered a reliable protocol?",
+      "answer": "TCP guarantees ordered and reliable delivery through the use of acknowledgements and retransmissions.",
+      "bloom": "Understand",
+      "source": "guarantees ordered and reliable delivery using acknowledgements and retransmissions"
+    },
+    {
+      "question": "Compare the use cases for TCP and UDP based on their performance priorities.",
+      "answer": "TCP is used for applications like web browsing and email where reliability is required, while UDP is used for live video streaming and DNS queries where speed is prioritized over reliability.",
+      "bloom": "Apply",
+      "source": "TCP is used by applications such as web browsing and email"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES for further questions; specific technical details regarding the implementation of flow control or congestion control were not provided."
+}

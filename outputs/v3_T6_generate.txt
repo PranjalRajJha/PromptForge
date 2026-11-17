@@ -1,0 +1,71 @@
+{
+  "summary": "This study pack covers fundamental prompting techniques used to guide AI model behavior. It explores methods ranging from zero-shot and few-shot prompting to structured approaches like chain-of-thought and prompt chaining. Additionally, it highlights the importance of output format constraints for programmatic integration.",
+  "key_concepts": [
+    "Zero-shot prompting",
+    "Few-shot prompting",
+    "Chain-of-thought prompting",
+    "Prompt chaining",
+    "Output format constraints"
+  ],
+  "definitions": [],
+  "exam_points": [
+    "Zero-shot prompting provides instructions without examples.",
+    "Few-shot prompting uses input-output examples to help the model imitate patterns.",
+    "Chain-of-thought prompting encourages step-by-step reasoning for multi-step problems.",
+    "Prompt chaining involves breaking complex tasks into smaller, sequential prompts.",
+    "Output format constraints facilitate the use of model responses in software programs."
+  ],
+  "mcqs": [
+    {
+      "question": "Which prompting technique involves providing the model with an instruction but no examples?",
+      "options": [
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "Chain-of-thought prompting",
+        "Prompt chaining"
+      ],
+      "answer": "A",
+      "bloom": "Remember",
+      "source": "gives the model an instruction with no examples"
+    },
+    {
+      "question": "What is the primary purpose of using output format constraints?",
+      "options": [
+        "To increase the length of the response",
+        "To make responses easier to check and use in programs",
+        "To force the model to reason step by step",
+        "To provide more examples to the model"
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "make responses easier to check and use in programs"
+    },
+    {
+      "question": "If you are designing a system where the output of one prompt must serve as the input for the next, which technique are you implementing?",
+      "options": [
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "Chain-of-thought prompting",
+        "Prompt chaining"
+      ],
+      "answer": "D",
+      "bloom": "Apply",
+      "source": "output of one prompt becomes the input of the next"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "How does few-shot prompting assist a model in generating better responses?",
+      "answer": "Few-shot prompting adds a small number of input-output examples to the prompt, which allows the model to imitate the pattern and format provided.",
+      "bloom": "Understand",
+      "source": "adds a small number of input-output examples to the prompt; model can imitate the pattern and format"
+    },
+    {
+      "question": "Why is chain-of-thought prompting recommended for complex tasks?",
+      "answer": "Chain-of-thought prompting is recommended because it asks the model to reason step by step, which often helps on multi-step problems.",
+      "bloom": "Understand",
+      "source": "asks the model to reason step by step; often helps on multi-step problems"
+    }
+  ],
+  "coverage_note": "All required questions were generated based on the provided facts and concepts."
+}

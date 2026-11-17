@@ -1,0 +1,38 @@
+{
+  "topic": "Deterministic and Nondeterministic Finite Automata",
+  "key_concepts": [
+    {
+      "concept": "Subset construction",
+      "evidence": "Every NFA can be converted into an equivalent DFA using the subset construction"
+    },
+    {
+      "concept": "Epsilon transitions",
+      "evidence": "NFAs may also use epsilon transitions, which move between states"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "DFA",
+      "definition": "A finite-state machine in which each state has exactly one transition for every input symbol.",
+      "evidence": "each state has exactly one transition for every input symbol"
+    },
+    {
+      "term": "NFA",
+      "definition": "A finite-state machine that can have multiple transitions for the same input symbol or no transition at all.",
+      "evidence": "can have multiple transitions for the same input symbol"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "DFAs and NFAs recognize the same class of languages.",
+      "evidence": "Both DFAs and NFAs recognize exactly the class of regular languages."
+    },
+    {
+      "fact": "Converting an NFA to a DFA may result in an exponential increase in states.",
+      "evidence": "the DFA may have exponentially more states"
+    }
+  ],
+  "mentioned_only": [
+    "regular languages"
+  ]
+}

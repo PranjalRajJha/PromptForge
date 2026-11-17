@@ -1,0 +1,43 @@
+## 1. Summary
+This lecture covers essential prompting techniques used to improve Large Language Model performance. It explains methods ranging from zero-shot and few-shot prompting to complex strategies like chain-of-thought and prompt chaining. Additionally, it highlights the importance of output constraints for programmatic integration.
+
+## 2. Key Concepts
+*   **Zero-shot prompting:** Providing instructions without any prior examples.
+*   **Few-shot prompting:** Including a few input-output examples to guide the model.
+*   **Chain-of-thought:** Encouraging step-by-step reasoning for complex problems.
+*   **Prompt chaining:** Breaking a large task into a sequence of smaller, linked prompts.
+*   **Output constraints:** Restricting the response format (e.g., JSON) for easier processing.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| Zero-shot | Prompting without providing any examples. |
+| Few-shot | Providing a small set of examples to establish a pattern. |
+| Chain-of-thought | A method requiring the model to reason step-by-step. |
+| Prompt chaining | Using the output of one prompt as input for the next. |
+
+## 4. Likely Exam Points
+*   Differentiate between zero-shot and few-shot prompting.
+*   Explain why chain-of-thought is effective for multi-step problems.
+*   Describe the workflow of prompt chaining in complex tasks.
+*   Explain the benefit of using output constraints like JSON.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which technique uses no examples? (a) Few-shot (b) Zero-shot (c) Chaining (d) Reasoning
+2. What does few-shot prompting provide? (a) Reasoning steps (b) JSON only (c) Input-output examples (d) No instructions
+3. Which method is best for multi-step problems? (a) Zero-shot (b) Chain-of-thought (c) JSON (d) Prompt chaining
+4. What is the main benefit of prompt chaining? (a) Speed (b) Splitting complex tasks (c) No examples (d) Less memory
+5. Why use JSON constraints? (a) Better reasoning (b) Easier programmatic use (c) Fewer steps (d) More examples
+
+**Short-Answer:**
+1. Define prompt chaining.
+2. How does few-shot prompting help a model?
+3. Why is chain-of-thought useful?
+
+## 6. Answer Key
+**MCQs:** 1(b), 2(c), 3(b), 4(b), 5(b)
+**Short-Answer:**
+1. Prompt chaining splits a complex task into smaller prompts where the output of one becomes the input of the next.
+2. It allows the model to imitate the pattern and format provided in the examples.
+3. It forces the model to reason step-by-step, which improves accuracy on multi-step problems.

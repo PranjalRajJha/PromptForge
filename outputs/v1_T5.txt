@@ -1,0 +1,42 @@
+## 1. Summary
+An n-gram is a contiguous sequence of $n$ tokens used in language modeling to predict the next word in a sequence. By calculating probabilities based on the previous $n-1$ words, these models estimate the likelihood of word sequences using training corpus counts. Because unseen sequences result in zero probability, smoothing techniques like Laplace smoothing are applied to ensure all n-grams have a non-zero probability.
+
+## 2. Key Concepts
+*   **N-gram:** A contiguous sequence of $n$ tokens.
+*   **Unigram/Bigram/Trigram:** Sequences of length 1, 2, and 3 respectively.
+*   **Language Modeling:** Estimating the probability of a word based on preceding context.
+*   **Training Corpus:** The dataset used to count occurrences for probability estimation.
+*   **Smoothing:** A method to assign non-zero probabilities to unseen n-grams.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| N-gram | A contiguous sequence of $n$ tokens from a text. |
+| Bigram Model | A model estimating $P(w_i \| w_{i-1})$. |
+| Laplace Smoothing | A technique to assign small non-zero probabilities to unseen n-grams. |
+
+## 4. Likely Exam Points
+*   Explain the relationship between $n$ and the number of previous words considered.
+*   Describe how training corpus counts are used to estimate probabilities.
+*   Identify why zero probability occurs for unseen n-grams and how to fix it.
+
+## 5. Practice Questions
+**MCQs:**
+1. What is a bigram? (a) 1 token (b) 2 tokens (c) 3 tokens (d) 0 tokens
+2. A trigram model uses how many previous words? (a) 1 (b) 2 (c) 3 (d) 4
+3. What happens to unseen n-grams without smoothing? (a) 1 (b) 0.5 (c) 0 (d) Error
+4. Which technique handles zero probability? (a) Counting (b) Laplace smoothing (c) Tokenization (d) Sequencing
+5. An n-gram is defined as a sequence that is: (a) Random (b) Contiguous (c) Disjoint (d) Infinite
+
+**Short Answer:**
+1. Define an n-gram.
+2. What is the purpose of Laplace smoothing?
+3. How does a bigram model calculate probability?
+
+## 6. Answer Key
+**MCQs:** 1(b), 2(b), 3(c), 4(b), 5(b)
+
+**Short Answer:**
+1. An n-gram is a contiguous sequence of $n$ tokens from a text.
+2. It assigns a small non-zero probability to unseen n-grams to avoid zero-probability issues.
+3. It estimates the probability of a word $w_i$ given the previous word $w_{i-1}$ using corpus counts.

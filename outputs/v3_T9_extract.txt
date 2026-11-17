@@ -1,0 +1,20 @@
+{
+  "topic": "Lecture notes request",
+  "key_concepts": [],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "The speaker missed yesterday's lecture.",
+      "evidence": "kal ka lecture miss ho gaya"
+    },
+    {
+      "fact": "The speaker is requesting notes.",
+      "evidence": "notes bhej dena"
+    },
+    {
+      "fact": "The speaker suggests going to the canteen.",
+      "evidence": "phir canteen chalte hain"
+    }
+  ],
+  "mentioned_only": []
+}

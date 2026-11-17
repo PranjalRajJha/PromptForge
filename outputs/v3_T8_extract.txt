@@ -1,0 +1,31 @@
+{
+  "topic": "Normal forms recap",
+  "key_concepts": [
+    {
+      "concept": "1NF",
+      "evidence": "1NF: atomic values only"
+    },
+    {
+      "concept": "2NF",
+      "evidence": "2NF: no partial dependency on the primary key"
+    },
+    {
+      "concept": "3NF",
+      "evidence": "3NF: no transitive dependency"
+    }
+  ],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "4NF and 5NF are not in the syllabus.",
+      "evidence": "4NF, 5NF: out of syllabus"
+    },
+    {
+      "fact": "Students should practice decomposition problems from the tutorial sheet.",
+      "evidence": "practice decomposition problems from the tutorial sheet."
+    }
+  ],
+  "mentioned_only": [
+    "BCNF"
+  ]
+}

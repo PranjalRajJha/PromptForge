@@ -1,0 +1,59 @@
+{
+  "topic": "n-gram language models",
+  "key_concepts": [
+    {
+      "concept": "n-gram",
+      "evidence": "a contiguous sequence of n tokens from a text"
+    },
+    {
+      "concept": "n-gram language model",
+      "evidence": "estimates the probability of a word given the previous n-1 words"
+    },
+    {
+      "concept": "smoothing techniques",
+      "evidence": "used to give them a small non-zero probability"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "n-gram",
+      "definition": "a contiguous sequence of n tokens from a text",
+      "evidence": "An n-gram is a contiguous sequence of n tokens"
+    },
+    {
+      "term": "unigram",
+      "definition": "uses one token",
+      "evidence": "A unigram uses one token"
+    },
+    {
+      "term": "bigram",
+      "definition": "uses two tokens",
+      "evidence": "a bigram uses two"
+    },
+    {
+      "term": "trigram",
+      "definition": "uses three tokens",
+      "evidence": "a trigram uses three"
+    },
+    {
+      "term": "add-one (Laplace) smoothing",
+      "definition": "a smoothing technique used to give unseen n-grams a small non-zero probability",
+      "evidence": "smoothing techniques such as add-one (Laplace) smoothing"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "Bigram models estimate probability based on the previous word.",
+      "evidence": "P(w_i | w_{i-1}) for a bigram model"
+    },
+    {
+      "fact": "Training corpus counts are used to estimate probabilities.",
+      "evidence": "Counts from a training corpus are used to estimate these probabilities"
+    },
+    {
+      "fact": "Unseen n-grams are assigned zero probability without smoothing.",
+      "evidence": "Unseen n-grams get zero probability"
+    }
+  ],
+  "mentioned_only": []
+}

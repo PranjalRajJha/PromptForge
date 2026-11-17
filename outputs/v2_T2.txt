@@ -1,0 +1,87 @@
+{
+  "summary": "CPU scheduling determines the execution order of ready processes. Common algorithms include First-Come First-Served (FCFS), Shortest Job First (SJF), and Round Robin (RR). Each algorithm presents specific trade-offs regarding efficiency, waiting times, and overhead.",
+  "key_concepts": [
+    "CPU scheduling",
+    "Convoy effect",
+    "Average waiting time",
+    "Starvation",
+    "Time quantum",
+    "Context-switch overhead"
+  ],
+  "definitions": [
+    {
+      "term": "First-Come First-Served (FCFS)",
+      "definition": "A scheduling algorithm that runs processes in the order they arrive."
+    },
+    {
+      "term": "Shortest Job First (SJF)",
+      "definition": "A scheduling algorithm that selects the process with the smallest next CPU burst."
+    },
+    {
+      "term": "Round Robin (RR)",
+      "definition": "A scheduling algorithm that assigns a fixed time quantum to each process in turn."
+    }
+  ],
+  "exam_points": [
+    "FCFS is simple but susceptible to the convoy effect.",
+    "SJF provides the minimum average waiting time.",
+    "SJF requires prior knowledge of CPU burst lengths.",
+    "SJF can lead to the starvation of long processes.",
+    "RR performance depends on the size of the time quantum.",
+    "Large time quanta in RR lead to FCFS-like behavior.",
+    "Small time quanta in RR increase context-switch overhead."
+  ],
+  "mcqs": [
+    {
+      "question": "Which scheduling algorithm is known for potentially causing the 'convoy effect'?",
+      "options": [
+        "Shortest Job First",
+        "Round Robin",
+        "First-Come First-Served",
+        "None of the above"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "FCFS... can cause the convoy effect"
+    },
+    {
+      "question": "What is a primary requirement for implementing the Shortest Job First (SJF) algorithm?",
+      "options": [
+        "Processes must arrive in order",
+        "Burst lengths must be known in advance",
+        "A fixed time quantum must be set",
+        "Processes must have equal burst lengths"
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "needs to know burst lengths in advance"
+    },
+    {
+      "question": "If a system administrator sets the time quantum in Round Robin to be extremely small, what is the most likely consequence?",
+      "options": [
+        "The convoy effect will be eliminated",
+        "Average waiting time will increase to infinity",
+        "Context-switch overhead will increase",
+        "The algorithm will behave like FCFS"
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "if it is too small context-switch overhead increases"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Why might a long process suffer from starvation under the Shortest Job First (SJF) algorithm?",
+      "answer": "Because SJF prioritizes processes with the smallest next CPU burst, long processes may be repeatedly bypassed by shorter ones.",
+      "bloom": "Understand",
+      "source": "SJF... can starve long processes"
+    },
+    {
+      "question": "How does the choice of time quantum affect the behavior of the Round Robin algorithm?",
+      "answer": "A large time quantum causes RR to behave like FCFS, while a small time quantum increases the overhead caused by context switching.",
+      "bloom": "Apply",
+      "source": "if the quantum is too large RR behaves like FCFS"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to provide details on preemptive vs non-preemptive scheduling or specific mathematical calculations for waiting times."
+}

@@ -1,0 +1,37 @@
+# Study Pack: CPU Scheduling
+
+This study pack covers the basics of how an operating system decides which process gets to use the CPU next.
+
+---
+
+### 1. Summary
+CPU scheduling is the process of choosing which task (process) from the "ready queue" gets to run on the CPU. Different algorithms prioritize different goals, such as fairness, speed, or efficiency. The three main methods are **FCFS** (first-come, first-served), **SJF** (shortest job first), and **RR** (round robin).
+
+---
+
+### 2. Key Concepts
+*   **FCFS:** Simple and fair, but can lead to the "convoy effect" where short tasks get stuck waiting for a long task to finish.
+*   **SJF:** Highly efficient for reducing wait times, but difficult to implement because you must predict how long a task will take before it starts. It also risks "starving" long tasks (they may never run).
+*   **RR:** Designed for time-sharing systems. It gives every process a small slice of time (quantum) to ensure everyone gets a turn.
+
+---
+
+### 3. Important Definitions
+*   **CPU Burst:** The amount of time a process needs to use the CPU to complete its work.
+*   **Convoy Effect:** A situation where many short processes are forced to wait behind one long process, slowing down overall system performance.
+*   **Time Quantum:** A fixed, small unit of time assigned to a process in Round Robin scheduling.
+*   **Starvation:** A condition where a process is perpetually denied CPU time because other, shorter processes keep taking priority.
+*   **Context-Switch Overhead:** The time the computer spends "switching" between processes; if this happens too often, the system becomes inefficient.
+
+---
+
+### 4. Practice Questions
+
+**Q1: Which scheduling algorithm is most likely to cause the "convoy effect"?**
+*   *Answer:* First-Come First-Served (FCFS).
+
+**Q2: What is the main disadvantage of using a very small time quantum in Round Robin scheduling?**
+*   *Answer:* It increases context-switch overhead, meaning the CPU spends more time switching between tasks than actually performing the work.
+
+**Q3: Why is Shortest Job First (SJF) difficult to use in a real-world operating system?**
+*   *Answer:* It requires knowing the length of the next CPU burst in advance, which is usually impossible to predict accurately for every process.

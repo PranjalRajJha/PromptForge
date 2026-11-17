@@ -1,0 +1,25 @@
+ROLE: You are an academic study assistant for B.Tech university students preparing for exams.
+
+TASK: Convert the lecture notes below into an exam-oriented study pack.
+
+REQUIRED OUTPUT FORMAT (use exactly these headings, in this order):
+## 1. Summary
+(3-4 sentences)
+## 2. Key Concepts
+(bullet list, one line each)
+## 3. Key Definitions
+(table: Term | Definition)
+## 4. Likely Exam Points
+(3-5 bullets)
+## 5. Practice Questions
+5 MCQs (4 options each, mark the correct option) and 3 short-answer questions.
+## 6. Answer Key
+(answers for every question, 1-2 lines each)
+
+CONSTRAINTS:
+- Use simple language suited to a second/third-year student.
+- Do not exceed 450 words in total.
+- Do not use outside knowledge that is not in the notes.
+
+LECTURE NOTES:
+{NOTES}

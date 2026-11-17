@@ -1,0 +1,100 @@
+{
+  "review": [
+    {"item": "summary", "verdict": "supported", "reason": "The summary accurately reflects the provided notes."},
+    {"item": "key_concepts", "verdict": "supported", "reason": "All concepts are present in the notes."},
+    {"item": "definitions", "verdict": "supported", "reason": "All definitions match the notes."},
+    {"item": "exam_points", "verdict": "supported", "reason": "All points are supported by the notes."},
+    {"item": "mcqs", "verdict": "supported", "reason": "All MCQs have exactly one correct answer supported by the notes."},
+    {"item": "short_questions", "verdict": "supported", "reason": "All answers are supported by the notes."}
+  ],
+  "hallucination_count": 0,
+  "final_pack": {
+    "summary": "N-gram language models are probabilistic tools used to predict the next word in a sequence based on a fixed number of preceding tokens. The model relies on counts derived from a training corpus to estimate these probabilities. To address the issue of unseen sequences receiving zero probability, various smoothing techniques are applied.",
+    "key_concepts": [
+      "n-gram",
+      "n-gram language model",
+      "smoothing techniques"
+    ],
+    "definitions": [
+      {
+        "term": "n-gram",
+        "definition": "a contiguous sequence of n tokens from a text"
+      },
+      {
+        "term": "unigram",
+        "definition": "uses one token"
+      },
+      {
+        "term": "bigram",
+        "definition": "uses two tokens"
+      },
+      {
+        "term": "trigram",
+        "definition": "uses three tokens"
+      },
+      {
+        "term": "add-one (Laplace) smoothing",
+        "definition": "a smoothing technique used to give unseen n-grams a small non-zero probability"
+      }
+    ],
+    "exam_points": [
+      "N-grams are defined as contiguous sequences of n tokens.",
+      "Bigram models calculate probability based on the single previous word.",
+      "Training corpus counts are essential for probability estimation.",
+      "Smoothing is required to prevent zero probability for unseen n-grams."
+    ],
+    "mcqs": [
+      {
+        "question": "What is an n-gram?",
+        "options": [
+          "A non-contiguous sequence of tokens",
+          "A contiguous sequence of n tokens from a text",
+          "A probability distribution of words",
+          "A smoothing technique for language models"
+        ],
+        "answer": "B",
+        "bloom": "Remember",
+        "source": "An n-gram is a contiguous sequence of n tokens"
+      },
+      {
+        "question": "Which of the following describes a bigram?",
+        "options": [
+          "Uses one token",
+          "Uses three tokens",
+          "Uses two tokens",
+          "Uses four tokens"
+        ],
+        "answer": "C",
+        "bloom": "Understand",
+        "source": "a bigram uses two"
+      },
+      {
+        "question": "If a specific n-gram does not appear in the training corpus, what probability is assigned to it without smoothing?",
+        "options": [
+          "A small non-zero probability",
+          "A probability of one",
+          "A probability of zero",
+          "An undefined probability"
+        ],
+        "answer": "C",
+        "bloom": "Apply",
+        "source": "Unseen n-grams get zero probability"
+      }
+    ],
+    "short_questions": [
+      {
+        "question": "How does a bigram model estimate the probability of a word?",
+        "answer": "A bigram model estimates the probability of a word based on the previous word, represented as P(w_i | w_{i-1}).",
+        "bloom": "Understand",
+        "source": "P(w_i | w_{i-1}) for a bigram model"
+      },
+      {
+        "question": "Why are smoothing techniques like add-one (Laplace) smoothing used in language modeling?",
+        "answer": "They are used to give unseen n-grams a small non-zero probability instead of the zero probability they would otherwise receive.",
+        "bloom": "Understand",
+        "source": "smoothing techniques such as add-one (Laplace) smoothing"
+      }
+    ],
+    "coverage_note": "Sufficient facts and definitions were available to generate the required number of questions."
+  }
+}

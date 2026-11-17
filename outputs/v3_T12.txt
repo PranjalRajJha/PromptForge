@@ -1,0 +1,98 @@
+{
+  "review": [
+    {
+      "item": "Summary",
+      "verdict": "supported",
+      "reason": "The summary accurately reflects the provided notes."
+    },
+    {
+      "item": "Key concepts",
+      "verdict": "supported",
+      "reason": "All concepts are present in the notes."
+    },
+    {
+      "item": "Exam points",
+      "verdict": "supported",
+      "reason": "All points are directly supported by the notes."
+    },
+    {
+      "item": "MCQs",
+      "verdict": "supported",
+      "reason": "All MCQs have exactly one correct answer supported by the notes."
+    },
+    {
+      "item": "Short questions",
+      "verdict": "supported",
+      "reason": "All answers are supported by the notes."
+    }
+  ],
+  "hallucination_count": 0,
+  "final_pack": {
+    "summary": "A stack is a LIFO (Last-In, First-Out) data structure. It supports two primary operations: push, which adds an element to the top, and pop, which removes an element from the top. Stacks are used in function calls and undo operations.",
+    "key_concepts": [
+      "LIFO data structure",
+      "Push operation",
+      "Pop operation"
+    ],
+    "definitions": [],
+    "exam_points": [
+      "Stack follows LIFO principle.",
+      "Push adds elements to the top.",
+      "Pop removes elements from the top.",
+      "Stacks are used in function calls and undo operations."
+    ],
+    "mcqs": [
+      {
+        "question": "Which principle does a stack follow?",
+        "options": [
+          "FIFO",
+          "LIFO",
+          "FILO",
+          "Random access"
+        ],
+        "answer": "B",
+        "bloom": "Remember",
+        "source": "Stack ek LIFO data structure hai."
+      },
+      {
+        "question": "What is the function of the 'pop' operation in a stack?",
+        "options": [
+          "Adds an element to the bottom",
+          "Removes an element from the bottom",
+          "Adds an element to the top",
+          "Removes an element from the top"
+        ],
+        "answer": "D",
+        "bloom": "Understand",
+        "source": "pop top se element remove karta hai."
+      },
+      {
+        "question": "If you want to implement an 'undo' feature in an application, which data structure should you use?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Array",
+          "Linked List"
+        ],
+        "answer": "B",
+        "bloom": "Apply",
+        "source": "Stack ka use function calls aur undo operation me hota hai."
+      }
+    ],
+    "short_questions": [
+      {
+        "question": "Explain the push operation in a stack.",
+        "answer": "The push operation is used to add an element to the top of the stack.",
+        "bloom": "Understand",
+        "source": "push top par element add karta hai"
+      },
+      {
+        "question": "List two practical applications of a stack.",
+        "answer": "Stacks are used in function calls and undo operations.",
+        "bloom": "Remember",
+        "source": "Stack ka use function calls aur undo operation me hota hai."
+      }
+    ],
+    "coverage_note": "Sufficient facts were available to generate the required number of questions."
+  }
+}

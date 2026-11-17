@@ -1,0 +1,49 @@
+## 1. Summary
+TCP and UDP are the two primary transport layer protocols with distinct operational characteristics. TCP is connection-oriented, prioritizing reliable and ordered data delivery through mechanisms like handshakes and acknowledgments. Conversely, UDP is connectionless and prioritizes speed and low latency over reliability, making it ideal for real-time applications.
+
+## 2. Key Concepts
+*   TCP uses a three-way handshake to establish connections.
+*   TCP ensures data integrity via acknowledgments and retransmissions.
+*   TCP includes flow and congestion control mechanisms.
+*   UDP operates without connection setup, reducing overhead.
+*   UDP does not guarantee delivery, ordering, or duplicate protection.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| TCP | A connection-oriented protocol ensuring reliable, ordered data delivery. |
+| UDP | A connectionless protocol prioritizing low latency over reliability. |
+| Three-way Handshake | The process used by TCP to establish a connection. |
+| Flow Control | A TCP mechanism to manage data transmission rates. |
+
+## 4. Likely Exam Points
+*   Distinguish between connection-oriented (TCP) and connectionless (UDP) protocols.
+*   Identify the trade-off between reliability (TCP) and speed (UDP).
+*   List specific use cases for TCP (e.g., email) vs. UDP (e.g., live streaming).
+*   Explain why UDP has lower overhead compared to TCP.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which protocol uses a three-way handshake? (a) UDP (b) TCP (c) Both (d) Neither
+2. Which protocol is best for live video streaming? (a) TCP (b) UDP (c) Both (d) Neither
+3. What does TCP guarantee? (a) Speed (b) Low latency (c) Reliable delivery (d) No overhead
+4. Which is a feature of UDP? (a) Flow control (b) Connectionless (c) Retransmissions (d) Ordered delivery
+5. Which application typically uses TCP? (a) DNS (b) Live video (c) Email (d) None
+
+**Short-Answer:**
+1. Why is UDP faster than TCP?
+2. Name two mechanisms TCP uses to ensure reliability.
+3. When should a developer choose UDP over TCP?
+
+## 6. Answer Key
+**MCQs:**
+1. (b) TCP
+2. (b) UDP
+3. (c) Reliable delivery
+4. (b) Connectionless
+5. (c) Email
+
+**Short-Answer:**
+1. UDP is faster because it is connectionless and lacks the overhead of handshakes and reliability checks.
+2. TCP uses acknowledgments and retransmissions to ensure data is received correctly.
+3. Choose UDP when speed and low latency are more important than guaranteed delivery, such as in live streaming.

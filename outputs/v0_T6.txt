@@ -1,0 +1,39 @@
+# Study Pack: Prompt Engineering Basics
+
+This study pack covers the fundamental techniques used to guide Large Language Models (LLMs) to produce better results.
+
+---
+
+## 1. Short Summary
+Prompt engineering is the art of structuring inputs to get the best possible output from an AI. By choosing the right strategy—such as providing examples, asking for step-by-step reasoning, or breaking down complex tasks—you can significantly improve the accuracy and reliability of the model's responses.
+
+---
+
+## 2. Key Concepts
+*   **Zero-shot Prompting:** Giving a direct instruction without any background examples.
+*   **Few-shot Prompting:** Providing a few examples to show the model the desired pattern or format.
+*   **Chain-of-Thought (CoT):** Encouraging the model to "think out loud" or show its work.
+*   **Prompt Chaining:** Breaking a big task into a sequence of smaller, manageable steps.
+*   **Output Constraints:** Forcing the model to use a specific format (like JSON) to make the data easier to process.
+
+---
+
+## 3. Important Definitions
+*   **Zero-shot:** "Zero" examples provided. Best for simple, straightforward tasks.
+*   **Few-shot:** "Few" examples provided. Best for tasks where the format or style is specific.
+*   **Chain-of-Thought:** A technique where the model explains its logic step-by-step before reaching a conclusion.
+*   **Prompt Chaining:** A workflow where the output of one AI task serves as the input for the next.
+*   **JSON:** A common data format used to make AI output machine-readable.
+
+---
+
+## 4. Practice Questions
+
+**Q1: You want an AI to write a poem in the exact style of a specific author. Which prompting technique should you use?**
+*   *Answer:* **Few-shot prompting.** By providing a few examples of the author's poems, the model can imitate the style and format more accurately.
+
+**Q2: You have a complex math problem that requires multiple calculations. Which technique is most likely to improve the accuracy of the answer?**
+*   *Answer:* **Chain-of-thought prompting.** Asking the model to reason step-by-step helps it avoid errors in multi-step logic.
+
+**Q3: You need to extract data from a document and save it into a database. Which technique would help ensure the AI provides the data in a format your database can read?**
+*   *Answer:* **Output format constraints.** By asking the model to provide the response in a format like JSON, you ensure the data is structured correctly for your program.

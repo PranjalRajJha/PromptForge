@@ -1,0 +1,9 @@
+{
+  "summary": "The provided lecture notes consist of non-semantic strings, symbols, and placeholder text. There is no coherent academic content or technical information present. Consequently, the material cannot be summarized into meaningful concepts.",
+  "key_concepts": [],
+  "definitions": [],
+  "exam_points": [],
+  "mcqs": [],
+  "short_questions": [],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to generate MCQs or short-answer questions. The input contains only random characters and placeholder text."
+}

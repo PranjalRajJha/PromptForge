@@ -1,0 +1,43 @@
+## 1. Summary
+A Deterministic Finite Automaton (DFA) is a machine where each state has exactly one transition per input symbol. In contrast, a Nondeterministic Finite Automaton (NFA) allows multiple transitions, no transitions, or epsilon transitions for a single input. Despite these structural differences, both models recognize the same class of regular languages. Any NFA can be converted into an equivalent DFA using the subset construction method.
+
+## 2. Key Concepts
+*   DFAs require exactly one transition per input symbol for every state.
+*   NFAs allow flexibility with multiple, zero, or epsilon transitions.
+*   Epsilon transitions allow state changes without reading any input.
+*   DFAs and NFAs are computationally equivalent in terms of language recognition.
+*   Subset construction is the standard algorithm to convert an NFA to a DFA.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| DFA | A machine with exactly one transition per input symbol. |
+| NFA | A machine allowing multiple, zero, or epsilon transitions. |
+| Epsilon Transition | A move between states without consuming input symbols. |
+| Subset Construction | The process of converting an NFA into an equivalent DFA. |
+
+## 4. Likely Exam Points
+*   Distinguish between DFA and NFA transition rules.
+*   Explain the role and function of epsilon transitions.
+*   State the relationship between DFAs, NFAs, and regular languages.
+*   Describe the trade-off in state count when converting NFA to DFA.
+
+## 5. Practice Questions
+**MCQs:**
+1. How many transitions does a DFA have per input symbol? (a) 0 (b) 1 (c) Many (d) Optional
+2. Which machine allows epsilon transitions? (a) DFA (b) NFA (c) Both (d) Neither
+3. What class of languages do DFAs and NFAs recognize? (a) Context-free (b) Regular (c) Recursive (d) None
+4. What is used to convert an NFA to a DFA? (a) Subset construction (b) Epsilon removal (c) State reduction (d) Parsing
+5. Can an NFA have zero transitions for an input? (a) Yes (b) No (c) Only in DFAs (d) Never
+
+**Short Answer:**
+1. Define an epsilon transition.
+2. Why might a DFA have more states than its equivalent NFA?
+3. Compare the transition rules of a DFA and an NFA.
+
+## 6. Answer Key
+**MCQs:** 1(b), 2(b), 3(b), 4(a), 5(a)
+**Short Answer:**
+1. A transition that allows moving between states without consuming any input.
+2. The subset construction process can lead to an exponential increase in states.
+3. DFAs have exactly one transition per symbol; NFAs allow multiple, zero, or epsilon transitions.

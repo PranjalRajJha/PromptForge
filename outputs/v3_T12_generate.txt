@@ -1,0 +1,68 @@
+{
+  "summary": "A stack is a fundamental data structure that operates on the LIFO (Last-In, First-Out) principle. It supports two primary operations: push, which adds an element to the top, and pop, which removes an element from the top. Stacks are commonly utilized in practical applications such as function calls and undo operations.",
+  "key_concepts": [
+    "LIFO data structure",
+    "Push operation",
+    "Pop operation"
+  ],
+  "definitions": [],
+  "exam_points": [
+    "Stack follows LIFO principle.",
+    "Push adds elements to the top.",
+    "Pop removes elements from the top.",
+    "Stacks are used in function calls and undo operations."
+  ],
+  "mcqs": [
+    {
+      "question": "Which principle does a stack follow?",
+      "options": [
+        "FIFO",
+        "LIFO",
+        "FILO",
+        "Random access"
+      ],
+      "answer": "B",
+      "bloom": "Remember",
+      "source": "Stack ek LIFO data structure hai."
+    },
+    {
+      "question": "What is the function of the 'pop' operation in a stack?",
+      "options": [
+        "Adds an element to the bottom",
+        "Removes an element from the bottom",
+        "Adds an element to the top",
+        "Removes an element from the top"
+      ],
+      "answer": "D",
+      "bloom": "Understand",
+      "source": "pop top se element remove karta hai."
+    },
+    {
+      "question": "If you want to implement an 'undo' feature in an application, which data structure should you use?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Array",
+        "Linked List"
+      ],
+      "answer": "B",
+      "bloom": "Apply",
+      "source": "Stack ka use function calls aur undo operation me hota hai."
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Explain the push operation in a stack.",
+      "answer": "The push operation is used to add an element to the top of the stack.",
+      "bloom": "Understand",
+      "source": "push top par element add karta hai"
+    },
+    {
+      "question": "List two practical applications of a stack.",
+      "answer": "Stacks are used in function calls and undo operations.",
+      "bloom": "Remember",
+      "source": "Stack ka use function calls aur undo operation me hota hai."
+    }
+  ],
+  "coverage_note": "Sufficient facts were available to generate the required number of questions."
+}

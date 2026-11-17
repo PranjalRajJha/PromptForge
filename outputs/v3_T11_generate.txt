@@ -1,0 +1,65 @@
+{
+  "summary": "The OSI model is a framework for network communication structured into seven distinct layers. Each layer is designed to provide specific services to the layer immediately above it. The model encompasses the physical, data link, network, transport, session, presentation, and application layers.",
+  "key_concepts": [
+    "Layered service structure"
+  ],
+  "definitions": [],
+  "exam_points": [
+    "The OSI model is composed of seven layers.",
+    "The layers are organized as physical, data link, network, transport, session, presentation, and application.",
+    "Communication in the OSI model follows a service-based hierarchy where each layer serves the layer above."
+  ],
+  "mcqs": [
+    {
+      "question": "How many layers are contained within the OSI model?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "The OSI model has seven layers"
+    },
+    {
+      "question": "Which of the following is a correct layer in the OSI model?",
+      "options": [
+        "Physical",
+        "Internet",
+        "Hardware",
+        "Routing"
+      ],
+      "answer": "A",
+      "bloom": "Understand",
+      "source": "physical, data link, network, transport, session, presentation and application"
+    },
+    {
+      "question": "If a layer in the OSI model is responsible for providing services to the layer above it, what does this imply about the layer below it?",
+      "options": [
+        "It provides services to the current layer.",
+        "It is independent of the current layer.",
+        "It receives services from the current layer.",
+        "It is not part of the OSI model."
+      ],
+      "answer": "A",
+      "bloom": "Apply",
+      "source": "Each layer provides services to the layer above it"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "List the seven layers of the OSI model in order.",
+      "answer": "The seven layers are physical, data link, network, transport, session, presentation, and application.",
+      "bloom": "Remember",
+      "source": "physical, data link, network, transport, session, presentation and application"
+    },
+    {
+      "question": "Describe the functional relationship between layers in the OSI model.",
+      "answer": "Each layer provides services to the layer directly above it.",
+      "bloom": "Understand",
+      "source": "Each layer provides services to the layer above it"
+    }
+  ],
+  "coverage_note": "Sufficient facts were available to generate the required number of questions."
+}

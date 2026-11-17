@@ -1,0 +1,56 @@
+{
+  "topic": "CPU scheduling",
+  "key_concepts": [
+    {
+      "concept": "First-Come First-Served (FCFS)",
+      "evidence": "runs processes in arrival order and is simple"
+    },
+    {
+      "concept": "Shortest Job First (SJF)",
+      "evidence": "picks the process with the smallest next CPU burst"
+    },
+    {
+      "concept": "Round Robin (RR)",
+      "evidence": "gives each process a fixed time quantum in turn"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "CPU scheduling",
+      "definition": "The process of deciding which ready process runs next.",
+      "evidence": "decides which ready process runs next"
+    },
+    {
+      "term": "convoy effect",
+      "definition": "A situation where short processes wait behind a long one.",
+      "evidence": "short processes wait behind a long one"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "FCFS can cause the convoy effect.",
+      "evidence": "can cause the convoy effect"
+    },
+    {
+      "fact": "SJF provides the minimum average waiting time.",
+      "evidence": "gives the minimum average waiting time"
+    },
+    {
+      "fact": "SJF requires knowledge of burst lengths in advance.",
+      "evidence": "needs to know burst lengths in advance"
+    },
+    {
+      "fact": "SJF can cause starvation for long processes.",
+      "evidence": "can starve long processes"
+    },
+    {
+      "fact": "If the RR time quantum is too large, it behaves like FCFS.",
+      "evidence": "if the quantum is too large RR behaves like FCFS"
+    },
+    {
+      "fact": "If the RR time quantum is too small, context-switch overhead increases.",
+      "evidence": "if it is too small context-switch overhead increases"
+    }
+  ],
+  "mentioned_only": []
+}

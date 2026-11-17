@@ -1,0 +1,37 @@
+{
+  "topic": "Normalization",
+  "key_concepts": [
+    {
+      "concept": "Normalization purpose",
+      "evidence": "reduces redundancy and update anomalies in relational schemas"
+    },
+    {
+      "concept": "Decomposition requirement",
+      "evidence": "Decomposition should be lossless"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "First Normal Form (1NF)",
+      "definition": "A table where all attributes hold atomic values and there are no repeating groups.",
+      "evidence": "all attributes hold atomic values and there are no repeating groups"
+    },
+    {
+      "term": "Second Normal Form (2NF)",
+      "definition": "A table in 1NF where no non-key attribute depends on only part of a composite primary key.",
+      "evidence": "no non-key attribute depends on only part of a composite primary key"
+    },
+    {
+      "term": "Third Normal Form (3NF)",
+      "definition": "A table in 2NF where no non-key attribute depends transitively on the primary key.",
+      "evidence": "no non-key attribute depends transitively on the primary key"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "Lossless decomposition allows recovery of the original table.",
+      "evidence": "original table can be recovered by joining the parts"
+    }
+  ],
+  "mentioned_only": []
+}

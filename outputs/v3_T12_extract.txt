@@ -1,0 +1,25 @@
+{
+  "topic": "Stack",
+  "key_concepts": [
+    {
+      "concept": "LIFO data structure",
+      "evidence": "Stack ek LIFO data structure hai."
+    },
+    {
+      "concept": "Push operation",
+      "evidence": "push top par element add karta hai"
+    },
+    {
+      "concept": "Pop operation",
+      "evidence": "pop top se element remove karta hai."
+    }
+  ],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "Stack is used in function calls and undo operations.",
+      "evidence": "Stack ka use function calls aur undo operation me hota hai."
+    }
+  ],
+  "mentioned_only": []
+}

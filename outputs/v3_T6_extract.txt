@@ -1,0 +1,43 @@
+{
+  "topic": "Prompting Techniques",
+  "key_concepts": [
+    {
+      "concept": "Zero-shot prompting",
+      "evidence": "gives the model an instruction with no examples"
+    },
+    {
+      "concept": "Few-shot prompting",
+      "evidence": "adds a small number of input-output examples to the prompt"
+    },
+    {
+      "concept": "Chain-of-thought prompting",
+      "evidence": "asks the model to reason step by step"
+    },
+    {
+      "concept": "Prompt chaining",
+      "evidence": "splits a complex task into several smaller prompts"
+    },
+    {
+      "concept": "Output format constraints",
+      "evidence": "make responses easier to check and use in programs"
+    }
+  ],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "Few-shot prompting allows the model to imitate patterns and formats.",
+      "evidence": "model can imitate the pattern and format"
+    },
+    {
+      "fact": "Chain-of-thought prompting is often helpful for multi-step problems.",
+      "evidence": "often helps on multi-step problems"
+    },
+    {
+      "fact": "In prompt chaining, the output of one prompt becomes the input of the next.",
+      "evidence": "output of one prompt becomes the input of the next"
+    }
+  ],
+  "mentioned_only": [
+    "JSON"
+  ]
+}

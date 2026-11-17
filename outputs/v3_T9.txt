@@ -1,0 +1,97 @@
+{
+  "review": [
+    {
+      "item": "summary",
+      "verdict": "supported",
+      "reason": "The summary accurately reflects the content of the original notes."
+    },
+    {
+      "item": "key_concepts",
+      "verdict": "supported",
+      "reason": "The concepts are derived directly from the source text."
+    },
+    {
+      "item": "exam_points",
+      "verdict": "supported",
+      "reason": "The points are supported by the source text."
+    },
+    {
+      "item": "mcqs",
+      "verdict": "supported",
+      "reason": "All MCQs have exactly one correct answer supported by the notes."
+    },
+    {
+      "item": "short_questions",
+      "verdict": "supported",
+      "reason": "The questions and answers are supported by the notes."
+    }
+  ],
+  "hallucination_count": 0,
+  "final_pack": {
+    "summary": "This document outlines a request for lecture notes following a missed class session. It also includes a social suggestion to visit the canteen. The content is limited to these specific administrative and social interactions.",
+    "key_concepts": [
+      "Lecture attendance",
+      "Note sharing",
+      "Canteen visit"
+    ],
+    "definitions": [],
+    "exam_points": [
+      "The speaker was absent for the previous day's lecture.",
+      "The speaker requires notes from the missed lecture.",
+      "The speaker proposes a visit to the canteen."
+    ],
+    "mcqs": [
+      {
+        "question": "What is the status of the speaker regarding yesterday's lecture?",
+        "options": [
+          "They attended the lecture",
+          "They missed the lecture",
+          "They arrived late",
+          "They left early"
+        ],
+        "answer": "B",
+        "bloom": "Remember",
+        "source": "kal ka lecture miss ho gaya"
+      },
+      {
+        "question": "What action does the speaker request from the recipient?",
+        "options": [
+          "To explain the lecture",
+          "To meet at the canteen",
+          "To send the notes",
+          "To reschedule the class"
+        ],
+        "answer": "C",
+        "bloom": "Understand",
+        "source": "notes bhej dena"
+      },
+      {
+        "question": "If the speaker wants to socialize after addressing their academic needs, where do they suggest going?",
+        "options": [
+          "The library",
+          "The classroom",
+          "The canteen",
+          "The laboratory"
+        ],
+        "answer": "C",
+        "bloom": "Apply",
+        "source": "phir canteen chalte hain"
+      }
+    ],
+    "short_questions": [
+      {
+        "question": "Why is the speaker asking for notes?",
+        "answer": "The speaker is asking for notes because they missed yesterday's lecture.",
+        "bloom": "Understand",
+        "source": "kal ka lecture miss ho gaya"
+      },
+      {
+        "question": "What is the speaker's suggestion after the request for notes?",
+        "answer": "The speaker suggests going to the canteen.",
+        "bloom": "Remember",
+        "source": "phir canteen chalte hain"
+      }
+    ],
+    "coverage_note": "There were fewer than 5 facts provided in the source material; therefore, the exam pack was generated based on the 3 available facts."
+  }
+}

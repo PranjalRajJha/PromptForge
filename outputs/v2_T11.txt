@@ -1,0 +1,72 @@
+{
+  "summary": "The OSI model is structured into seven distinct layers. These layers function by providing services to the layer immediately above them. Conversely, each layer utilizes the services provided by the layer directly below it.",
+  "key_concepts": [
+    "OSI model",
+    "Layered architecture",
+    "Service hierarchy"
+  ],
+  "definitions": [
+    {
+      "term": "OSI model",
+      "definition": "A framework consisting of seven layers: physical, data link, network, transport, session, presentation, and application."
+    }
+  ],
+  "exam_points": [
+    "The OSI model consists of seven layers.",
+    "Layers interact with the layers directly above and below them.",
+    "Each layer provides services to the layer above it."
+  ],
+  "mcqs": [
+    {
+      "question": "How many layers are in the OSI model?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "The OSI model has seven layers"
+    },
+    {
+      "question": "Which layer is immediately above the physical layer in the OSI model?",
+      "options": [
+        "Data link",
+        "Network",
+        "Transport",
+        "Application"
+      ],
+      "answer": "A",
+      "bloom": "Understand",
+      "source": "physical, data link, network, transport, session, presentation and application"
+    },
+    {
+      "question": "If a layer is providing services to the layer above it, what does it do regarding the layer below it?",
+      "options": [
+        "It ignores the layer below it.",
+        "It provides services to the layer below it.",
+        "It uses the services of the layer below it.",
+        "It replaces the layer below it."
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "uses the services of the layer below it"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Describe the relationship between adjacent layers in the OSI model.",
+      "answer": "Each layer provides services to the layer above it and uses the services of the layer below it.",
+      "bloom": "Understand",
+      "source": "Each layer provides services to the layer above it"
+    },
+    {
+      "question": "List the seven layers of the OSI model in order.",
+      "answer": "Physical, data link, network, transport, session, presentation, and application.",
+      "bloom": "Remember",
+      "source": "physical, data link, network, transport, session, presentation and application"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to provide further questions; the notes do not define the specific functions of each individual layer."
+}

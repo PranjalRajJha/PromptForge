@@ -1,0 +1,44 @@
+Since you did not provide the specific technical lecture notes, I have prepared this template based on a standard **"Introduction to Operating Systems"** lecture (a common 2nd/3rd-year topic) to demonstrate the format. **Please paste your specific notes if you want me to convert those instead!**
+
+## 1. Summary
+This lecture covers the fundamental role of an Operating System (OS) as an interface between hardware and the user. It explains how the OS manages system resources like CPU, memory, and I/O devices to ensure efficient execution. Key topics include process states, scheduling, and the distinction between kernel and user modes.
+
+## 2. Key Concepts
+*   **OS Role:** Acts as an intermediary between computer hardware and the user.
+*   **Kernel:** The core component of the OS that manages system resources.
+*   **Process States:** The lifecycle of a process (New, Ready, Running, Waiting, Terminated).
+*   **Scheduling:** Algorithms used to allocate CPU time to processes.
+*   **System Calls:** The interface between a process and the OS.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| **Process** | A program in execution. |
+| **Kernel** | The central part of the OS that controls everything. |
+| **Throughput** | The number of processes completed per unit time. |
+
+## 4. Likely Exam Points
+*   Explain the transition between process states with a diagram.
+*   Differentiate between User Mode and Kernel Mode.
+*   List the primary functions of an Operating System.
+*   Explain why scheduling is necessary for CPU efficiency.
+
+## 5. Practice Questions
+**MCQs:**
+1. What is a program in execution called? (a) File (b) Process (c) Thread (d) Task [Ans: b]
+2. Which part of the OS is always in memory? (a) Kernel (b) Shell (c) Compiler (d) Linker [Ans: a]
+3. Which state follows the 'Ready' state? (a) New (b) Running (c) Terminated (d) Waiting [Ans: b]
+4. What is the primary goal of an OS? (a) Speed (b) Convenience (c) Resource Management (d) All [Ans: d]
+5. System calls are used to: (a) Access hardware (b) Run apps (c) Delete files (d) None [Ans: a]
+
+**Short-Answer Questions:**
+1. Define the role of the Kernel.
+2. List three states of a process.
+3. Why do we need an Operating System?
+
+## 6. Answer Key
+**MCQs:** 1(b), 2(a), 3(b), 4(d), 5(a).
+**Short-Answers:**
+1. The kernel is the core of the OS that manages hardware and system resources.
+2. New, Ready, and Running.
+3. To provide an interface for users and manage hardware resources efficiently.

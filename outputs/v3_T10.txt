@@ -1,0 +1,24 @@
+{
+  "review": [
+    {
+      "item": "The provided source material contains no factual information or definitions regarding the topic 'lorem ipsum'. The content is limited to a list of items categorized as 'mentioned_only', which cannot be utilized for question generation. Consequently, no study material can be constructed from the provided data.",
+      "verdict": "supported",
+      "reason": "The original notes consist only of non-semantic strings and symbols ('asdkj qwe 123 ### ??? ;;; lorem ipsum dolor sit 0x4F ~~~'), confirming the absence of educational content."
+    },
+    {
+      "item": "coverage_note: Fewer than 5 facts/definitions exist; in fact, zero usable facts were provided in the source JSON, making it impossible to generate any questions.",
+      "verdict": "supported",
+      "reason": "The source material contains no factual data."
+    }
+  ],
+  "hallucination_count": 0,
+  "final_pack": {
+    "summary": "The provided source material contains no factual information or definitions. The content is limited to a list of non-semantic strings and symbols, which cannot be utilized for study material generation.",
+    "key_concepts": [],
+    "definitions": [],
+    "exam_points": [],
+    "mcqs": [],
+    "short_questions": [],
+    "coverage_note": "Zero usable facts were provided in the source notes, making it impossible to generate study material."
+  }
+}

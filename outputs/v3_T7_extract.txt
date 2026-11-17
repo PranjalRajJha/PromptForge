@@ -1,0 +1,17 @@
+{
+  "topic": "Stack",
+  "key_concepts": [
+    {
+      "concept": "LIFO",
+      "evidence": "Stack: LIFO."
+    }
+  ],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "Stack operations are push and pop.",
+      "evidence": "Operations: push, pop."
+    }
+  ],
+  "mentioned_only": []
+}

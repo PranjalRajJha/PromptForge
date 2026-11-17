@@ -1,0 +1,35 @@
+# Study Pack: Database Normalization
+
+This study pack covers the basics of database normalization, a process used to organize data efficiently to prevent errors and save space.
+
+---
+
+### 1. Summary
+Normalization is the process of organizing a database to reduce **redundancy** (duplicate data) and prevent **update anomalies** (errors that occur when updating data). By breaking tables down into smaller, related parts, we ensure that data is stored logically and can be reconstructed perfectly through a process called **lossless decomposition**.
+
+---
+
+### 2. Key Concepts
+*   **Redundancy:** Storing the same data in multiple places, which wastes space and risks inconsistency.
+*   **Update Anomalies:** Issues that arise when changing data in one place but failing to update it in another, leading to conflicting information.
+*   **Lossless Decomposition:** The ability to break a table into smaller tables and join them back together later without losing any original information.
+
+---
+
+### 3. Important Definitions
+*   **First Normal Form (1NF):** The table must have **atomic values** (each cell contains only one piece of data) and no repeating groups (no lists inside a single cell).
+*   **Second Normal Form (2NF):** The table must be in 1NF, and every non-key attribute must depend on the **entire** primary key (not just a part of it).
+*   **Third Normal Form (3NF):** The table must be in 2NF, and there should be no **transitive dependencies** (a non-key attribute should not depend on another non-key attribute).
+
+---
+
+### 4. Practice Questions
+
+**Q1: Why do we normalize databases?**
+*   **Answer:** We normalize databases to reduce data redundancy (duplicate data) and prevent update anomalies (errors that happen when data is inconsistent).
+
+**Q2: What is the main requirement for a table to be in 1NF?**
+*   **Answer:** A table is in 1NF if all attributes (cells) hold atomic values and there are no repeating groups.
+
+**Q3: If a table is in 2NF, what must be true about its non-key attributes?**
+*   **Answer:** Every non-key attribute must depend on the *entire* primary key, rather than just a part of it (this is specifically important if the primary key is a composite key).

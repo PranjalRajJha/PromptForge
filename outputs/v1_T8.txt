@@ -1,0 +1,42 @@
+## 1. Summary
+This lecture provides a concise recap of database normalization, focusing on the first three normal forms. Normalization is essential for reducing data redundancy and ensuring logical dependency structures within a database. Students are expected to understand the transition from 1NF to 3NF and are advised to practice decomposition problems to prepare for exams.
+
+## 2. Key Concepts
+*   **1NF:** Ensures all table attributes contain only atomic (indivisible) values.
+*   **2NF:** Requires the table to be in 1NF and eliminates partial functional dependencies.
+*   **3NF:** Requires the table to be in 2NF and eliminates transitive dependencies.
+*   **Decomposition:** The process of breaking down tables to satisfy higher normal forms.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| 1NF | A state where every column contains only atomic, single values. |
+| Partial Dependency | When a non-prime attribute depends on only part of a composite primary key. |
+| Transitive Dependency | When a non-prime attribute depends on another non-prime attribute, not the key. |
+
+## 4. Likely Exam Points
+*   Identify the normal form of a given table based on its dependencies.
+*   Explain the step-by-step process of decomposing a table to reach 3NF.
+*   Distinguish between partial and transitive dependencies in a schema.
+*   Note that 4NF and 5NF are excluded from the current syllabus.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which NF requires atomic values? (a) 1NF (b) 2NF (c) 3NF (d) BCNF
+2. 2NF eliminates: (a) Transitive (b) Partial (c) Atomic (d) None
+3. 3NF eliminates: (a) Partial (b) Atomic (c) Transitive (d) Redundancy
+4. Which is out of syllabus? (a) 1NF (b) 2NF (c) 3NF (d) 5NF
+5. Normalization is used to: (a) Increase speed (b) Reduce redundancy (c) Add keys (d) Delete data
+
+**Short Answer:**
+1. Define 1NF.
+2. What is the main difference between 2NF and 3NF?
+3. Why is decomposition important?
+
+## 6. Answer Key
+**MCQs:** 1(a), 2(b), 3(c), 4(d), 5(b)
+
+**Short Answer:**
+1. 1NF requires that all attributes in a table contain only atomic, indivisible values.
+2. 2NF removes partial dependencies, while 3NF removes transitive dependencies.
+3. Decomposition is used to break tables into smaller ones to satisfy normal form requirements and reduce redundancy.

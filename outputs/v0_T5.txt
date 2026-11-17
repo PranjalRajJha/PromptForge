@@ -1,0 +1,38 @@
+# Study Pack: Introduction to N-grams
+
+This study pack covers the basics of n-grams and language modeling as presented in your lecture notes.
+
+---
+
+### 1. Short Summary
+An **n-gram** is a way of breaking down text into sequences of a specific length. By looking at these sequences, we can build a **language model** that predicts the next word in a sentence based on the words that came before it. Because real-world text often contains sequences we haven't seen before, we use **smoothing** to ensure our model doesn't assign a probability of zero to new or rare phrases.
+
+---
+
+### 2. Key Concepts
+*   **Contiguous Sequences:** N-grams must be words that appear right next to each other in the original text.
+*   **Predictive Modeling:** The goal is to calculate the probability of a word appearing, given the context of the previous words.
+*   **The "Zero Probability" Problem:** If a specific sequence never appeared in your training data, a basic model will think it is impossible (0% probability). Smoothing fixes this by assigning a tiny probability to these unseen sequences.
+
+---
+
+### 3. Important Definitions
+*   **N-gram:** A sequence of *n* tokens (words).
+    *   **Unigram:** 1 token.
+    *   **Bigram:** 2 tokens.
+    *   **Trigram:** 3 tokens.
+*   **Language Model:** A tool that estimates the probability of a word sequence.
+*   **Smoothing (e.g., Add-one/Laplace):** A technique used to adjust probability estimates so that unseen n-grams are given a small, non-zero probability instead of zero.
+
+---
+
+### 4. Practice Questions
+
+**Q1: If you are using a trigram model, how many previous words do you look at to predict the next word?**
+*   *Answer:* You look at the previous 2 words (n-1).
+
+**Q2: Why do we use smoothing in n-gram models?**
+*   *Answer:* We use smoothing to prevent the model from assigning a zero probability to n-grams that were not present in the training data, which would otherwise make the model fail if it encountered a new phrase.
+
+**Q3: Given the sentence "The cat sat," list all the bigrams.**
+*   *Answer:* "The cat" and "cat sat."

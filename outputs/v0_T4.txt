@@ -1,0 +1,36 @@
+# Study Pack: TCP vs. UDP
+
+This study pack covers the fundamental differences between the two primary transport layer protocols: TCP and UDP.
+
+---
+
+### 1. Short Summary
+In networking, **TCP** (Transmission Control Protocol) and **UDP** (User Datagram Protocol) are the two main ways data is sent across the internet. **TCP** is like a registered letter: it ensures the data arrives safely, in the right order, and without errors. **UDP** is like a postcard: it is sent quickly, but there is no guarantee it will arrive or arrive in the correct order.
+
+---
+
+### 2. Key Concepts
+*   **TCP (Reliable):** Focuses on accuracy. It checks if data arrived and asks for it again if it didn't.
+*   **UDP (Fast):** Focuses on speed. It sends data continuously without waiting for confirmation.
+*   **Trade-off:** You must choose between **reliability** (TCP) and **speed** (UDP). You cannot have both perfectly.
+
+---
+
+### 3. Important Definitions
+*   **Three-Way Handshake:** The process TCP uses to establish a connection between a sender and receiver before data is sent.
+*   **Flow Control:** A mechanism in TCP that prevents the sender from overwhelming the receiver with too much data at once.
+*   **Congestion Control:** A mechanism in TCP that slows down data transmission if the network is busy or "clogged."
+*   **Overhead:** The extra data (headers) added to a message to manage the connection. TCP has high overhead; UDP has low overhead.
+
+---
+
+### 4. Practice Questions
+
+**Q1: Which protocol would you choose for a live video call, and why?**
+*   **Answer:** UDP. In a live video call, speed is more important than perfect reliability. If a few frames of video are lost, it is better to keep the stream moving in real-time rather than pausing to re-send missing data.
+
+**Q2: What is the purpose of the "three-way handshake" in TCP?**
+*   **Answer:** It is used to establish a reliable connection between the sender and the receiver before any actual data is transmitted.
+
+**Q3: Why does TCP have higher latency (slower speed) than UDP?**
+*   **Answer:** TCP has higher latency because it requires extra steps, such as the initial handshake, waiting for acknowledgments, and retransmitting lost packets. UDP skips these steps, making it faster.

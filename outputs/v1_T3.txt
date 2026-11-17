@@ -1,0 +1,44 @@
+## 1. Summary
+Normalization is a database design process used to minimize data redundancy and prevent update anomalies. It organizes data into specific forms (1NF, 2NF, and 3NF) by enforcing rules on attribute dependencies. The process ensures that database decomposition remains lossless, allowing the original table to be reconstructed accurately.
+
+## 2. Key Concepts
+*   Normalization reduces redundancy and update anomalies.
+*   1NF requires atomic values and no repeating groups.
+*   2NF eliminates partial functional dependencies.
+*   3NF eliminates transitive dependencies.
+*   Lossless decomposition ensures data integrity during table splitting.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| 1NF | A state where all attributes hold atomic values. |
+| 2NF | 1NF plus no non-key attribute depends on part of a composite key. |
+| 3NF | 2NF plus no non-key attribute depends transitively on the primary key. |
+| Lossless Decomposition | Splitting a table such that the original can be recovered via joins. |
+
+## 4. Likely Exam Points
+*   Differentiate between partial and transitive dependencies.
+*   Explain the necessity of normalization in preventing update anomalies.
+*   Define the conditions required for a table to reach 3NF.
+*   Explain the importance of lossless decomposition in database design.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which normal form requires atomic values? (a) 1NF (b) 2NF (c) 3NF (d) BCNF
+2. What does normalization primarily reduce? (a) Speed (b) Redundancy (c) Storage (d) Security
+3. 2NF prevents which type of dependency? (a) Transitive (b) Partial (c) Full (d) Atomic
+4. A table in 3NF must first be in: (a) 1NF (b) 2NF (c) Both (d) None
+5. What ensures the original table can be recovered? (a) Redundancy (b) Lossless decomposition (c) Anomalies (d) Repeating groups
+
+**Short-Answer Questions:**
+1. Define the primary goal of normalization.
+2. What is the difference between 2NF and 3NF?
+3. Why is lossless decomposition important?
+
+## 6. Answer Key
+**MCQs:** 1(a), 2(b), 3(b), 4(c), 5(b)
+
+**Short-Answer:**
+1. To reduce data redundancy and prevent update anomalies.
+2. 2NF removes partial dependencies on composite keys, while 3NF removes transitive dependencies.
+3. It ensures that no information is lost or incorrectly added when splitting tables.

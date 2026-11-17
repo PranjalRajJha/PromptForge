@@ -1,0 +1,21 @@
+{
+  "topic": "OSI model",
+  "key_concepts": [
+    {
+      "concept": "Layered service structure",
+      "evidence": "Each layer provides services to the layer above it"
+    }
+  ],
+  "definitions": [],
+  "facts": [
+    {
+      "fact": "The OSI model consists of seven layers.",
+      "evidence": "The OSI model has seven layers"
+    },
+    {
+      "fact": "The seven layers are physical, data link, network, transport, session, presentation, and application.",
+      "evidence": "physical, data link, network, transport, session, presentation and application"
+    }
+  ],
+  "mentioned_only": []
+}

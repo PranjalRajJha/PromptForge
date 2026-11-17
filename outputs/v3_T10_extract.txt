@@ -1,0 +1,13 @@
+{
+  "topic": "lorem ipsum",
+  "key_concepts": [],
+  "definitions": [],
+  "facts": [],
+  "mentioned_only": [
+    "asdkj",
+    "qwe",
+    "123",
+    "lorem ipsum dolor sit",
+    "0x4F"
+  ]
+}

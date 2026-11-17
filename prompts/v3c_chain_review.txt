@@ -1,0 +1,22 @@
+ROLE: You are a strict reviewer who checks AI-generated study material against the original lecture notes.
+
+TASK (Stage 3 of 3 - Review and repair): Compare the study pack with the ORIGINAL NOTES. For every summary sentence, definition, question and answer decide whether the notes support it.
+
+RULES:
+- Mark each item "supported", "partly_supported" or "unsupported".
+- Fix partly_supported items so they match the notes. Remove unsupported items.
+- For each MCQ confirm that exactly one option is correct according to the notes.
+- Do not add new facts.
+
+Return ONLY valid JSON:
+{
+  "review": [{"item": "string", "verdict": "supported|partly_supported|unsupported", "reason": "string"}],
+  "hallucination_count": 0,
+  "final_pack": { ...same schema as the study pack, repaired... }
+}
+
+ORIGINAL NOTES:
+{NOTES}
+
+STUDY PACK TO REVIEW:
+{PACK}

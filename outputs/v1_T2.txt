@@ -1,0 +1,43 @@
+## 1. Summary
+CPU scheduling is the process of determining which task in the ready queue gets access to the CPU next. Common algorithms include FCFS, which processes tasks in arrival order, SJF, which prioritizes the shortest tasks to reduce waiting time, and Round Robin, which uses time-slicing. Each method involves trade-offs between simplicity, efficiency, and the risk of process starvation or overhead.
+
+## 2. Key Concepts
+*   **FCFS:** Executes processes based on their arrival sequence.
+*   **Convoy Effect:** Short processes delayed by a single long process.
+*   **SJF:** Prioritizes processes with the smallest CPU burst time.
+*   **Starvation:** Long processes never getting CPU time due to shorter tasks.
+*   **Round Robin:** Assigns a fixed time quantum to each process.
+*   **Context-Switch Overhead:** Performance cost of switching between processes.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| CPU Scheduling | Deciding which ready process runs on the CPU next. |
+| Time Quantum | A fixed time limit assigned to a process in Round Robin. |
+| CPU Burst | The duration a process requires the CPU to execute. |
+
+## 4. Likely Exam Points
+*   Explain the trade-off between SJF efficiency and the risk of starvation.
+*   Describe how the time quantum size affects Round Robin performance.
+*   Identify the cause and impact of the "convoy effect" in FCFS.
+*   Compare the criteria for selecting the next process in FCFS vs. SJF.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which algorithm is prone to the convoy effect? (a) SJF (b) RR (c) FCFS (d) None
+2. What is the main drawback of SJF? (a) High overhead (b) Starvation (c) Complex (d) Slow
+3. If the time quantum is too small, what increases? (a) Waiting time (b) Burst time (c) Overhead (d) Efficiency
+4. SJF provides the minimum: (a) Burst time (b) Average waiting time (c) Quantum (d) Context switch
+5. RR behaves like FCFS if: (a) Quantum is large (b) Quantum is small (c) Burst is short (d) Burst is long
+
+**Short-Answer:**
+1. Define the convoy effect.
+2. Why is it difficult to implement SJF in real systems?
+3. How does Round Robin manage CPU access?
+
+## 6. Answer Key
+**MCQs:** 1(c), 2(b), 3(c), 4(b), 5(a)
+**Short-Answer:**
+1. It occurs in FCFS when short processes wait behind a long process.
+2. It requires knowing the next CPU burst length in advance, which is difficult.
+3. It gives each process a fixed time quantum in a cyclic turn-based order.

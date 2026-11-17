@@ -1,0 +1,78 @@
+{
+  "summary": "This study pack covers the fundamental differences and relationships between Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA). It explores the mechanics of state transitions, including epsilon transitions, and the process of converting NFAs to DFAs. Additionally, it addresses the computational equivalence and state complexity implications of these models.",
+  "key_concepts": [
+    "Subset construction",
+    "Epsilon transitions"
+  ],
+  "definitions": [
+    {
+      "term": "DFA",
+      "definition": "A finite-state machine in which each state has exactly one transition for every input symbol.",
+      "evidence": "each state has exactly one transition for every input symbol"
+    },
+    {
+      "term": "NFA",
+      "definition": "A finite-state machine that can have multiple transitions for the same input symbol or no transition at all.",
+      "evidence": "can have multiple transitions for the same input symbol"
+    }
+  ],
+  "exam_points": [
+    "Every NFA can be converted into an equivalent DFA using the subset construction.",
+    "NFAs may use epsilon transitions to move between states.",
+    "DFAs and NFAs recognize the same class of languages.",
+    "Converting an NFA to a DFA may result in an exponential increase in states."
+  ],
+  "mcqs": [
+    {
+      "question": "Which of the following describes a DFA?",
+      "options": [
+        "A machine where each state has exactly one transition for every input symbol.",
+        "A machine that allows multiple transitions for the same input symbol.",
+        "A machine that exclusively uses epsilon transitions.",
+        "A machine that cannot be converted from an NFA."
+      ],
+      "answer": "A",
+      "bloom": "Remember",
+      "source": "each state has exactly one transition for every input symbol"
+    },
+    {
+      "question": "What is a characteristic feature of an NFA regarding transitions?",
+      "options": [
+        "It must have exactly one transition per symbol.",
+        "It can have multiple transitions for the same input symbol.",
+        "It cannot have epsilon transitions.",
+        "It is limited to a single state."
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "can have multiple transitions for the same input symbol"
+    },
+    {
+      "question": "If you are converting an NFA to a DFA using subset construction, what is a potential consequence regarding the number of states?",
+      "options": [
+        "The number of states will always decrease.",
+        "The number of states will remain exactly the same.",
+        "The DFA may have exponentially more states.",
+        "The DFA will always have exactly two states."
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "the DFA may have exponentially more states"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "What method is used to convert an NFA into an equivalent DFA?",
+      "answer": "The subset construction method is used to convert an NFA into an equivalent DFA.",
+      "bloom": "Remember",
+      "source": "Every NFA can be converted into an equivalent DFA using the subset construction"
+    },
+    {
+      "question": "How do epsilon transitions function within an NFA?",
+      "answer": "Epsilon transitions allow the NFA to move between states without consuming an input symbol.",
+      "bloom": "Understand",
+      "source": "NFAs may also use epsilon transitions, which move between states"
+    }
+  ],
+  "coverage_note": "All required questions were generated based on the provided facts and definitions."
+}

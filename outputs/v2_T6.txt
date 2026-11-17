@@ -1,0 +1,88 @@
+{
+  "summary": "This text outlines various prompting techniques for models, including zero-shot, few-shot, and chain-of-thought approaches. It also covers prompt chaining for complex tasks and the use of output format constraints. These methods help guide model behavior and improve response utility.",
+  "key_concepts": [
+    "Zero-shot prompting",
+    "Few-shot prompting",
+    "Chain-of-thought prompting",
+    "Prompt chaining",
+    "Output format constraints"
+  ],
+  "definitions": [
+    {
+      "term": "Zero-shot prompting",
+      "definition": "Providing an instruction to the model without any examples."
+    },
+    {
+      "term": "Few-shot prompting",
+      "definition": "Adding a small number of input-output examples to the prompt to allow the model to imitate a pattern."
+    },
+    {
+      "term": "Chain-of-thought prompting",
+      "definition": "Asking the model to reason step by step before providing a final answer."
+    },
+    {
+      "term": "Prompt chaining",
+      "definition": "Splitting a complex task into smaller prompts where the output of one becomes the input of the next."
+    }
+  ],
+  "exam_points": [
+    "Zero-shot prompting relies solely on instructions.",
+    "Few-shot prompting helps the model follow specific patterns and formats.",
+    "Chain-of-thought is effective for multi-step problems.",
+    "Prompt chaining is used to manage complex tasks.",
+    "Output format constraints like JSON facilitate programmatic use."
+  ],
+  "mcqs": [
+    {
+      "question": "Which prompting technique requires the model to reason step by step?",
+      "options": [
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "Chain-of-thought prompting",
+        "Prompt chaining"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "asks the model to reason step by step"
+    },
+    {
+      "question": "What is the primary purpose of using output format constraints like JSON?",
+      "options": [
+        "To increase the number of examples provided",
+        "To make responses easier to check and use in programs",
+        "To force the model to reason step by step",
+        "To split a complex task into smaller prompts"
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "make responses easier to check and use in programs"
+    },
+    {
+      "question": "If you have a multi-step problem that requires a specific output format, which combination of techniques would be most appropriate based on the notes?",
+      "options": [
+        "Zero-shot prompting and prompt chaining",
+        "Chain-of-thought prompting and output format constraints",
+        "Few-shot prompting and zero-shot prompting",
+        "Prompt chaining and zero-shot prompting"
+      ],
+      "answer": "B",
+      "bloom": "Apply",
+      "source": "helps on multi-step problems... Output format constraints... make responses easier"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "How does prompt chaining handle complex tasks?",
+      "answer": "It splits a complex task into several smaller prompts where the output of one prompt becomes the input of the next.",
+      "bloom": "Understand",
+      "source": "splits a complex task into several smaller prompts"
+    },
+    {
+      "question": "Why would a user choose few-shot prompting over zero-shot prompting?",
+      "answer": "Few-shot prompting allows the model to imitate the pattern and format of the provided input-output examples.",
+      "bloom": "Apply",
+      "source": "model can imitate the pattern and format"
+    }
+  ],
+  "coverage_note": "All content in the notes has been utilized."
+}

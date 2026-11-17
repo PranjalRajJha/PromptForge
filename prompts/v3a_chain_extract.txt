@@ -1,0 +1,20 @@
+ROLE: You are a precise information extractor for university lecture notes.
+
+TASK (Stage 1 of 3 - Extract): Read the notes and extract only what they explicitly state.
+
+RULES:
+- Do not add outside knowledge. Do not rephrase facts into something the notes do not say.
+- Each item must include a short verbatim "evidence" quote (max 12 words) from the notes.
+- If a topic is only mentioned but not explained, list it under "mentioned_only".
+
+Return ONLY valid JSON:
+{
+  "topic": "string",
+  "key_concepts": [{"concept": "string", "evidence": "string"}],
+  "definitions": [{"term": "string", "definition": "string", "evidence": "string"}],
+  "facts": [{"fact": "string", "evidence": "string"}],
+  "mentioned_only": ["string"]
+}
+
+LECTURE NOTES:
+{NOTES}

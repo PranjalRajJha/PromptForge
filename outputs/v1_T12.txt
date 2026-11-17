@@ -1,0 +1,47 @@
+## 1. Summary
+A stack is a fundamental linear data structure that follows the Last-In-First-Out (LIFO) principle. It operates primarily through two operations: 'push' to add elements to the top and 'pop' to remove them from the top. Stacks are essential in computing for managing function calls and implementing undo operations in software.
+
+## 2. Key Concepts
+*   Stack is a linear data structure.
+*   It follows the LIFO (Last-In-First-Out) principle.
+*   Push operation adds an element to the top.
+*   Pop operation removes an element from the top.
+*   Common applications include function call management and undo features.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| Stack | A data structure where the last element added is the first one removed. |
+| Push | The operation of inserting a new element onto the top of the stack. |
+| Pop | The operation of deleting the top element from the stack. |
+| LIFO | A principle where the most recently added item is processed first. |
+
+## 4. Likely Exam Points
+*   Explain the LIFO principle with a real-world example.
+*   Differentiate between push and pop operations.
+*   List two practical applications of a stack in computer science.
+
+## 5. Practice Questions
+**MCQs:**
+1. Which principle does a stack follow?
+   a) FIFO b) LIFO c) LILO d) Round Robin (Correct: b)
+2. Which operation adds an element to the stack?
+   a) Pop b) Delete c) Push d) Add (Correct: c)
+3. Where are elements added/removed in a stack?
+   a) Bottom b) Middle c) Top d) Anywhere (Correct: c)
+4. Which of these is a use of a stack?
+   a) Sorting b) Undo operation c) Searching d) Graph traversal (Correct: b)
+5. What is the primary function of 'pop'?
+   a) Add element b) Remove element c) Peek element d) Sort element (Correct: b)
+
+**Short-Answer Questions:**
+1. Define a stack.
+2. Explain the difference between push and pop.
+3. Name two applications of a stack mentioned in the notes.
+
+## 6. Answer Key
+**MCQs:** 1-b, 2-c, 3-c, 4-b, 5-b.
+**Short-Answers:**
+1. A stack is a LIFO-based linear data structure.
+2. Push adds an element to the top, while pop removes the top element.
+3. Function calls and undo operations.

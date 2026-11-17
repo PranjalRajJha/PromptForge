@@ -1,0 +1,74 @@
+{
+  "summary": "A stack is a data structure that follows the LIFO (Last-In, First-Out) principle. It supports two primary operations: push and pop. Both operations are performed at the top of the stack.",
+  "key_concepts": [
+    "Stack",
+    "LIFO",
+    "push",
+    "pop"
+  ],
+  "definitions": [
+    {
+      "term": "Stack",
+      "definition": "A data structure that operates on the LIFO principle."
+    }
+  ],
+  "exam_points": [
+    "Stacks follow the LIFO principle.",
+    "The push operation adds elements to the stack.",
+    "The pop operation removes elements from the stack.",
+    "Both push and pop operations occur at the top of the stack."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the acronym LIFO stand for in the context of a stack?",
+      "options": [
+        "Last-In, First-Out",
+        "Last-In, First-Off",
+        "Linear-In, First-Out",
+        "Last-Input, First-Output"
+      ],
+      "answer": "A",
+      "bloom": "Remember",
+      "source": "Stack: LIFO."
+    },
+    {
+      "question": "Which operation is used to add an element to a stack?",
+      "options": [
+        "pop",
+        "push",
+        "add",
+        "insert"
+      ],
+      "answer": "B",
+      "bloom": "Remember",
+      "source": "push adds to the top"
+    },
+    {
+      "question": "If you have a stack and perform a 'pop' operation, what is the result?",
+      "options": [
+        "The bottom element is removed.",
+        "A new element is added to the top.",
+        "The top element is removed.",
+        "The stack is cleared entirely."
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "pop removes from the top"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Explain the relationship between the push and pop operations in a stack.",
+      "answer": "Both operations are performed at the top of the stack, with push adding an element and pop removing an element.",
+      "bloom": "Understand",
+      "source": "push adds to the top, pop removes from the top."
+    },
+    {
+      "question": "NOT ENOUGH INFORMATION IN NOTES",
+      "answer": "NOT ENOUGH INFORMATION IN NOTES",
+      "bloom": "NOT ENOUGH INFORMATION IN NOTES",
+      "source": "NOT ENOUGH INFORMATION IN NOTES"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to provide a second short-answer question."
+}

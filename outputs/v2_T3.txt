@@ -1,0 +1,86 @@
+{
+  "summary": "Normalization is a process used to reduce redundancy and update anomalies within relational schemas. It involves organizing tables through specific normal forms, including 1NF, 2NF, and 3NF. The process requires that any decomposition remains lossless to ensure the original table can be recovered.",
+  "key_concepts": [
+    "Normalization",
+    "Redundancy",
+    "Update anomalies",
+    "1NF",
+    "2NF",
+    "3NF",
+    "Lossless decomposition"
+  ],
+  "definitions": [
+    {
+      "term": "First Normal Form (1NF)",
+      "definition": "A state where all attributes hold atomic values and there are no repeating groups."
+    },
+    {
+      "term": "Second Normal Form (2NF)",
+      "definition": "A state where the table is in 1NF and no non-key attribute depends on only part of a composite primary key."
+    },
+    {
+      "term": "Third Normal Form (3NF)",
+      "definition": "A state where the table is in 2NF and no non-key attribute depends transitively on the primary key."
+    }
+  ],
+  "exam_points": [
+    "Normalization aims to minimize redundancy and update anomalies.",
+    "1NF requires atomic values and no repeating groups.",
+    "2NF prevents partial dependency on composite primary keys.",
+    "3NF prevents transitive dependency on the primary key.",
+    "Decomposition must be lossless to allow recovery of the original table."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the primary purpose of normalization in relational schemas?",
+      "options": [
+        "To increase data redundancy",
+        "To reduce redundancy and update anomalies",
+        "To create repeating groups",
+        "To ensure all attributes are composite"
+      ],
+      "answer": "B",
+      "bloom": "Remember",
+      "source": "Normalization reduces redundancy and update anomalies"
+    },
+    {
+      "question": "Which condition must be met for a table to be in 1NF?",
+      "options": [
+        "Attributes must hold atomic values",
+        "Attributes must be transitively dependent",
+        "The table must have a composite primary key",
+        "The table must be decomposed into multiple parts"
+      ],
+      "answer": "A",
+      "bloom": "Understand",
+      "source": "all attributes hold atomic values"
+    },
+    {
+      "question": "If a table is in 2NF but a non-key attribute depends transitively on the primary key, what must be done to reach 3NF?",
+      "options": [
+        "Remove the atomic values",
+        "Ensure no non-key attribute depends on part of a composite key",
+        "Remove the transitive dependency",
+        "Ensure the decomposition is lossy"
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "no non-key attribute depends transitively on the primary key"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "What is the requirement for a table to be considered in 2NF?",
+      "answer": "The table must be in 1NF and no non-key attribute can depend on only part of a composite primary key.",
+      "bloom": "Understand",
+      "source": "in 1NF and no non-key attribute depends on only part"
+    },
+    {
+      "question": "Why is it important for decomposition to be lossless?",
+      "answer": "It is important so that the original table can be recovered by joining the parts.",
+      "bloom": "Apply",
+      "source": "original table can be recovered by joining the parts"
+    }
+  ],
+  "coverage_note": "All content in the notes has been utilized."
+}

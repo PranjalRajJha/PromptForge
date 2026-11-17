@@ -1,0 +1,79 @@
+{
+  "summary": "A Deterministic Finite Automaton (DFA) requires exactly one transition per input symbol for each state. In contrast, a Nondeterministic Finite Automaton (NFA) allows for multiple transitions, no transitions, or epsilon transitions. Despite these structural differences, both DFAs and NFAs recognize the same class of regular languages.",
+  "key_concepts": [
+    "DFA",
+    "NFA",
+    "Epsilon transitions",
+    "Regular languages",
+    "Subset construction"
+  ],
+  "definitions": [
+    {
+      "term": "DFA",
+      "definition": "A finite-state machine where each state has exactly one transition for every input symbol."
+    },
+    {
+      "term": "NFA",
+      "definition": "A finite-state machine that can have multiple transitions, no transitions, or epsilon transitions for an input symbol."
+    }
+  ],
+  "exam_points": [
+    "DFAs and NFAs recognize the same class of regular languages.",
+    "NFAs can transition between states without consuming input via epsilon transitions.",
+    "Subset construction is the method used to convert an NFA into an equivalent DFA.",
+    "Converting an NFA to a DFA may result in an exponential increase in the number of states."
+  ],
+  "mcqs": [
+    {
+      "question": "What is a defining characteristic of a DFA?",
+      "options": [
+        "It uses epsilon transitions",
+        "It has exactly one transition per input symbol for each state",
+        "It can have multiple transitions for the same input",
+        "It recognizes a different class of languages than an NFA"
+      ],
+      "answer": "B",
+      "bloom": "Remember",
+      "source": "each state has exactly one transition for every input symbol"
+    },
+    {
+      "question": "Which feature is unique to NFAs compared to DFAs?",
+      "options": [
+        "Recognizing regular languages",
+        "Having a finite number of states",
+        "Using epsilon transitions",
+        "Being convertible to a DFA"
+      ],
+      "answer": "C",
+      "bloom": "Understand",
+      "source": "NFAs may also use epsilon transitions"
+    },
+    {
+      "question": "If you are converting an NFA with 5 states to a DFA using subset construction, what is a potential outcome regarding the number of states?",
+      "options": [
+        "The DFA will always have exactly 5 states",
+        "The DFA will always have fewer than 5 states",
+        "The DFA may have exponentially more states than the NFA",
+        "The DFA will be unable to recognize the same language"
+      ],
+      "answer": "C",
+      "bloom": "Apply",
+      "source": "DFA may have exponentially more states"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Explain the difference between DFA and NFA transitions.",
+      "answer": "A DFA must have exactly one transition for every input symbol per state, whereas an NFA can have multiple transitions, no transitions, or epsilon transitions for the same input.",
+      "bloom": "Understand",
+      "source": "each state has exactly one transition... NFA can have multiple transitions"
+    },
+    {
+      "question": "How can an NFA be represented as a DFA?",
+      "answer": "An NFA can be converted into an equivalent DFA using the subset construction method.",
+      "bloom": "Apply",
+      "source": "Every NFA can be converted into an equivalent DFA using the subset construction"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to provide further questions; specific algorithms for subset construction and formal definitions of regular languages were not provided."
+}

@@ -1,0 +1,78 @@
+{
+  "summary": "An n-gram is defined as a contiguous sequence of n tokens derived from a text. Language models utilize these sequences to estimate the probability of a word based on the preceding n-1 words. To address the issue of zero probability for unseen n-grams, smoothing techniques like add-one (Laplace) smoothing are applied.",
+  "key_concepts": [
+    "n-gram",
+    "Language model",
+    "Training corpus",
+    "Smoothing",
+    "Laplace smoothing"
+  ],
+  "definitions": [
+    {
+      "term": "n-gram",
+      "definition": "A contiguous sequence of n tokens from a text."
+    },
+    {
+      "term": "Add-one (Laplace) smoothing",
+      "definition": "A technique used to assign a small non-zero probability to unseen n-grams."
+    }
+  ],
+  "exam_points": [
+    "Unigrams use one token, bigrams use two, and trigrams use three.",
+    "N-gram language models estimate probabilities using counts from a training corpus.",
+    "Unseen n-grams result in zero probability without smoothing."
+  ],
+  "mcqs": [
+    {
+      "question": "How many tokens are used in a trigram?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "a trigram uses three"
+    },
+    {
+      "question": "What is the primary purpose of add-one smoothing in an n-gram model?",
+      "options": [
+        "To increase the count of frequent words",
+        "To assign non-zero probability to unseen n-grams",
+        "To reduce the size of the training corpus",
+        "To calculate the probability of the entire text"
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "give them a small non-zero probability"
+    },
+    {
+      "question": "If a bigram model is used to predict a word, how many previous words are considered?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "answer": "B",
+      "bloom": "Apply",
+      "source": "probability of a word given the previous n-1 words"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "How are probabilities estimated in an n-gram language model?",
+      "answer": "Probabilities are estimated using counts derived from a training corpus.",
+      "bloom": "Understand",
+      "source": "Counts from a training corpus are used to estimate these probabilities."
+    },
+    {
+      "question": "What happens to the probability of an n-gram if it is not found in the training corpus?",
+      "answer": "The n-gram is assigned a probability of zero.",
+      "bloom": "Understand",
+      "source": "Unseen n-grams get zero probability"
+    }
+  ],
+  "coverage_note": "All requested items were supported by the provided notes."
+}

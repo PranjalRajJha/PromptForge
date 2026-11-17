@@ -1,0 +1,24 @@
+ROLE: You are an exam-question writer for B.Tech courses.
+
+TASK (Stage 2 of 3 - Generate): Using ONLY the extracted JSON below, create the study pack.
+
+RULES:
+- Use only items present in the extracted JSON. Do not use outside knowledge.
+- Items under "mentioned_only" must NOT be used to create questions.
+- If fewer than 5 facts/definitions exist, create fewer questions and say so in "coverage_note".
+- 3 MCQs (Bloom: 2 Remember/Understand, 1 Apply) and 2 short-answer questions.
+- Every question carries the "evidence" quote of the fact it tests in a "source" field.
+
+Return ONLY valid JSON:
+{
+  "summary": "string, 3-4 sentences",
+  "key_concepts": ["string"],
+  "definitions": [{"term": "string", "definition": "string"}],
+  "exam_points": ["string"],
+  "mcqs": [{"question": "string", "options": ["A","B","C","D"], "answer": "A|B|C|D", "bloom": "string", "source": "string"}],
+  "short_questions": [{"question": "string", "answer": "string", "bloom": "string", "source": "string"}],
+  "coverage_note": "string"
+}
+
+EXTRACTED JSON:
+{EXTRACTED}

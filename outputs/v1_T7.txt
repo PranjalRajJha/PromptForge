@@ -1,0 +1,52 @@
+## 1. Summary
+A stack is a fundamental linear data structure that follows the Last-In, First-Out (LIFO) principle. This means the last element added to the stack is the first one to be removed. It primarily supports two core operations, push and pop, to manage data insertion and deletion.
+
+## 2. Key Concepts
+*   Stacks operate on the LIFO (Last-In, First-Out) principle.
+*   Data is added and removed from only one end of the structure.
+*   The push operation is used to insert an element.
+*   The pop operation is used to remove an element.
+
+## 3. Key Definitions
+| Term | Definition |
+| :--- | :--- |
+| Stack | A linear data structure following the LIFO principle. |
+| Push | The operation of adding an element to the stack. |
+| Pop | The operation of removing an element from the stack. |
+| LIFO | Last-In, First-Out; the order of processing elements. |
+
+## 4. Likely Exam Points
+*   Explain the LIFO principle with a real-world analogy.
+*   Differentiate between push and pop operations.
+*   Identify the primary constraint of stack operations (single-end access).
+
+## 5. Practice Questions
+**MCQs:**
+1. Which principle does a stack follow?
+   a) FIFO b) LIFO c) LILO d) FILO (Correct: b)
+2. Which operation adds an element to a stack?
+   a) Pop b) Push c) Insert d) Add (Correct: b)
+3. Which operation removes an element from a stack?
+   a) Pop b) Push c) Delete d) Remove (Correct: a)
+4. In a stack, where does insertion occur?
+   a) Both ends b) Middle c) One end d) Anywhere (Correct: c)
+5. If you push 1, 2, 3, what comes out first on pop?
+   a) 1 b) 2 c) 3 d) None (Correct: c)
+
+**Short-Answer Questions:**
+1. Define a stack in your own words.
+2. What is the difference between push and pop?
+3. Why is a stack called a LIFO structure?
+
+## 6. Answer Key
+**MCQs:**
+1. b
+2. b
+3. a
+4. c
+5. c
+
+**Short-Answer:**
+1. A stack is a linear data structure where elements are added and removed based on the LIFO principle.
+2. Push adds a new element to the top of the stack, while pop removes the most recently added element.
+3. It is called LIFO because the "Last" element to be "In" is the "First" element to be "Out."

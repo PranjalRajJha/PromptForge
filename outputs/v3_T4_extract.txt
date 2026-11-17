@@ -1,0 +1,48 @@
+{
+  "topic": "TCP and UDP Protocols",
+  "key_concepts": [
+    {
+      "concept": "TCP connection setup",
+      "evidence": "uses a three-way handshake to set up a connection"
+    },
+    {
+      "concept": "TCP reliability mechanisms",
+      "evidence": "guarantees ordered and reliable delivery using acknowledgements and retransmissions"
+    },
+    {
+      "concept": "TCP traffic management",
+      "evidence": "provides flow control and congestion control"
+    },
+    {
+      "concept": "UDP performance characteristics",
+      "evidence": "has lower overhead and latency"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "TCP",
+      "definition": "A connection-oriented protocol",
+      "evidence": "TCP is connection-oriented"
+    },
+    {
+      "term": "UDP",
+      "definition": "A connectionless protocol",
+      "evidence": "UDP is connectionless"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "UDP does not guarantee delivery, ordering, or duplicate protection",
+      "evidence": "does not guarantee delivery, ordering or duplicate protection"
+    },
+    {
+      "fact": "TCP is used for web browsing and email",
+      "evidence": "TCP is used by applications such as web browsing and email"
+    },
+    {
+      "fact": "UDP is used for live video streaming and DNS queries",
+      "evidence": "used where speed matters more than reliability, such as live video streaming"
+    }
+  ],
+  "mentioned_only": []
+}

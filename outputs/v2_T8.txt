@@ -1,0 +1,82 @@
+{
+  "summary": "This lecture provides a recap of database normalization forms. It defines the requirements for 1NF, 2NF, and 3NF. It also notes that BCNF will be covered later, while 4NF and 5NF are excluded from the syllabus.",
+  "key_concepts": [
+    "1NF",
+    "2NF",
+    "3NF",
+    "Normalization"
+  ],
+  "definitions": [
+    {
+      "term": "1NF",
+      "definition": "A normal form requiring atomic values only."
+    },
+    {
+      "term": "2NF",
+      "definition": "A normal form requiring no partial dependency on the primary key."
+    },
+    {
+      "term": "3NF",
+      "definition": "A normal form requiring no transitive dependency."
+    }
+  ],
+  "exam_points": [
+    "1NF requires atomic values.",
+    "2NF eliminates partial dependencies on the primary key.",
+    "3NF eliminates transitive dependencies.",
+    "4NF and 5NF are out of the current syllabus."
+  ],
+  "mcqs": [
+    {
+      "question": "Which normal form requires the absence of transitive dependencies?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "C",
+      "bloom": "Remember",
+      "source": "3NF: no transitive dependency"
+    },
+    {
+      "question": "What is the primary requirement for a table to be in 1NF?",
+      "options": [
+        "No partial dependency",
+        "Atomic values only",
+        "No transitive dependency",
+        "BCNF compliance"
+      ],
+      "answer": "B",
+      "bloom": "Understand",
+      "source": "1NF: atomic values only"
+    },
+    {
+      "question": "If a table has a partial dependency on the primary key, which normal form is it failing to meet?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "4NF"
+      ],
+      "answer": "B",
+      "bloom": "Apply",
+      "source": "2NF: no partial dependency on the primary key"
+    }
+  ],
+  "short_questions": [
+    {
+      "question": "Why would a student not need to study 4NF for this exam?",
+      "answer": "4NF is explicitly stated as being out of the syllabus.",
+      "bloom": "Understand",
+      "source": "4NF, 5NF: out of syllabus"
+    },
+    {
+      "question": "What is the specific requirement to satisfy 2NF?",
+      "answer": "To satisfy 2NF, a table must have no partial dependency on the primary key.",
+      "bloom": "Understand",
+      "source": "2NF: no partial dependency on the primary key"
+    }
+  ],
+  "coverage_note": "NOT ENOUGH INFORMATION IN NOTES to provide details on BCNF, as it is covered in the next lecture."
+}

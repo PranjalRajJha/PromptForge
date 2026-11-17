@@ -1,0 +1,33 @@
+This study pack covers the fundamental concepts of a **Stack** data structure based on your lecture notes.
+
+---
+
+### 1. Summary
+A **Stack** is a linear data structure that follows a specific order for adding and removing elements. It acts like a physical stack of plates: you can only add a new plate to the top, and you can only remove the top plate. Because of this, the last item you put in is always the first one you take out.
+
+---
+
+### 2. Key Concepts
+*   **LIFO Principle:** Stands for **Last-In, First-Out**. This is the core rule of a stack. The most recently added element is the one that will be removed first.
+*   **One-Way Access:** You cannot access elements in the middle of the stack. You must remove the elements on top of them first.
+
+---
+
+### 3. Important Definitions
+*   **Stack:** A collection of elements where additions and removals happen at only one end (the "top").
+*   **Push:** The operation used to add an element to the top of the stack.
+*   **Pop:** The operation used to remove the element from the top of the stack.
+
+---
+
+### 4. Practice Questions
+
+**Q1: What does the acronym LIFO stand for, and what does it mean in the context of a stack?**
+*   **Answer:** LIFO stands for "Last-In, First-Out." It means that the last element added to the stack is the first one to be removed.
+
+**Q2: If you perform the following operations in order—Push(A), Push(B), Pop(), Push(C)—what is the final state of the stack (from bottom to top)?**
+*   **Answer:** The stack contains [A, C]. 
+    *   *Step-by-step:* Push A [A] $\rightarrow$ Push B [A, B] $\rightarrow$ Pop B [A] $\rightarrow$ Push C [A, C].
+
+**Q3: Why can’t you access an element at the bottom of a stack without affecting the elements above it?**
+*   **Answer:** Because a stack only allows operations (push/pop) at the "top." To reach the bottom element, you must "pop" all the elements currently sitting on top of it.

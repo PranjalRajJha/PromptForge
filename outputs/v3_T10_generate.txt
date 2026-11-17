@@ -1,0 +1,9 @@
+{
+  "summary": "The provided source material contains no factual information or definitions regarding the topic 'lorem ipsum'. The content is limited to a list of items categorized as 'mentioned_only', which cannot be utilized for question generation. Consequently, no study material can be constructed from the provided data.",
+  "key_concepts": [],
+  "definitions": [],
+  "exam_points": [],
+  "mcqs": [],
+  "short_questions": [],
+  "coverage_note": "Fewer than 5 facts/definitions exist; in fact, zero usable facts were provided in the source JSON, making it impossible to generate any questions."
+}
