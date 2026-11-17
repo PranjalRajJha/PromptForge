@@ -16,8 +16,7 @@ python build_reports.py       # regenerates docs/*.pdf with real numbers
 ## Folders
 prompts/ (v0, v1, v2, v3a, v3b, v3c) | test_data/ | evaluation/ | outputs/ | docs/
 
-## Hosting the prototype link
-Push this folder to GitHub, deploy on Streamlit Community Cloud (app.py), add the API key under Secrets as GEMINI_API_KEY. Do not commit keys.
+
 
 ## Data
 Only public / non-confidential lecture content. No personal data.
