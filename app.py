@@ -58,8 +58,13 @@ if st.button("Generate study pack", type="primary"):
   if err:
     st.warning(err)
   else:
-    with st.spinner("Running prompt workflow..."):
-        res = run_version(version, notes, call_llm)
+    try:
+        with st.spinner("Running prompt workflow..."):
+            res = run_version(version, notes, call_llm)
+    except Exception as e:
+        st.error("The model call failed (often a free-tier rate or daily quota limit). "
+                 "Please wait a minute and try again. Details: " + str(e)[:300])
+        st.stop()
     st.success(f"Done in {res['calls']} model call(s). Format check: "
                f"{'PASS' if format_pass(version, res['text']) else 'FAIL'}")
     if version in ("v0", "v1"):
